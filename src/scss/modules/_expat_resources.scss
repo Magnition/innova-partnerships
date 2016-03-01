@@ -1,0 +1,119 @@
+.expat-resources {
+  background: $cignaGlobalPrimary2;
+  color: white;
+  padding: 35px 30px;
+  @include bp(normal) {
+    background-image: url('../images/hpg-expat-resources-block---1600-x-660-airport-travellers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @include bp(wide) {
+    padding-top: 70px;
+    padding-bottom: 120px;
+  }
+
+  &__title {
+    font-family: $proxima-light;
+    font-weight: normal;
+    @include zero;
+  }
+  
+  .panel-default {
+    border-color: transparent;
+    > .panel-heading {
+      color: white;
+      background-color: transparent;
+      border-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+      border-bottom: none;
+    }
+  }
+
+  .panel {
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid white;
+    @include bp(tablet) {
+      border-bottom: none;
+    }
+  }
+
+  .panel-title {
+    position: relative;
+    font-family: $proxima-semi;
+    &:after {
+      content: '›';
+      position: absolute;
+      right: 0;
+      @include bp(tablet) {
+        content: '';
+      }
+    }
+  }
+
+  a {
+    color: white;
+    width: 100%;
+    display: inline-block;
+
+    &:focus, &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .btn {
+    width: auto !important;
+  }
+}
+
+.country-guide-info {
+
+  &__form {
+    label {
+      color: $cignaGlobalPrimary1;
+    }
+  }
+}
+
+.expat-app {
+  clear: both;
+  padding: 2em 2em 220px 2em;
+  @include bp(tablet) {
+    padding: 2em;
+  }
+}
+
+// expat fixes including mobile
+.resource-teaser {
+  margin-bottom: 20px !important;
+  background: $cignaGlobalSecondary4;
+  padding: 2em;
+  overflow: hidden;
+  @include bp(tablet) {
+    float: left;
+    width: 48.5%;
+    &:nth-child(odd) {
+      float: right;
+    }
+  }
+  &__title {
+    color: $cignaGlobalPrimary1;
+    font-family: $proxima-bold;
+    @include font-size(18);
+    width: 50%;
+    min-height: 45px;
+  }
+  &__icon {
+    float: right;
+    margin-top: -45px;
+  }
+  &__btn {
+    float: left;
+    clear: both;
+  }
+}

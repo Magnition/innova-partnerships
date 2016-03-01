@@ -1,0 +1,99 @@
+footer, .footer {
+  background: $cignaGlobalPrimary1;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+
+  &__back-to-top {
+    position: relative;
+    color: darken($cignaGlobalPrimary2, 5%);
+    @include font-size(12);
+    &:after {
+      position: absolute;
+      color: $cignaGlobalSecondary2;
+      content: '▲';
+      @include font-size(8);
+      top: -9px;
+      left: 26px;
+    }
+  }
+  @include bp(normal) {
+    h4 a {
+      cursor: default;
+    }
+  }
+  
+  .collapse {
+    @include bp(normal) {
+      display: block;
+    }
+  }
+
+  .contact-us {
+    text-align: left;
+    &__title {
+      @include font-size(18);
+    }
+
+    li {
+      @include font-size(14);
+    }
+  }
+  
+  .list-unstyled {
+    li {
+      padding: 10px 0;
+    }
+  }
+  .foot-cta {
+    margin-top: 20px;
+  }
+}
+
+@import 'footer_nav';
+
+.legals {
+  background: $cignaGlobalPrimary2;
+  color: white;
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+  @include font-size(12);
+
+
+  &__list {
+    @include zero;
+    letter-spacing: normal;
+  }
+
+  &__list-item {
+    display: inline;
+
+    &:after {
+      content: '|';
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &:last-child {
+      &:after {
+        content: '';
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__link {
+    color: white;
+    padding: 20px 10px 20px 10px;
+    line-height: 2em;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  &__copyright {
+    margin-top: 15px;
+  }
+}

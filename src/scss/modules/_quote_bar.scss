@@ -1,0 +1,33 @@
+.quote-bar {
+  background: $cignaGlobalPrimary2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  @include bp(normal) {
+    padding: 40px 20px 40px 20px;
+  }
+  overflow: hidden;
+
+  &__title {
+    @include font-size(24);
+    @include bp(tablet) {
+      @include font-size(30);
+    }
+    margin-top: 15px;
+    font-family: $proxima-light, Arial, sans-serif;
+    @include make-md-column(8);
+  }
+  .toppad a {
+    display: block;
+    color: white;
+    text-align: center;
+  }
+}
+
+.quote-bar__btn {
+  @include make-md-column(4);
+  @include font-size(20);
+    @include bp(tablet) {
+      @include font-size(24);
+    }
+}

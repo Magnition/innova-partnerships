@@ -1,0 +1,21 @@
+{
+  "name": "innova-partnerships",
+  "version": "1.0.0",
+  "authors": [
+    "Kirsty Munro <kirsty@magnition.co.uk>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "flag-icon-css": "~0.7.1"
+  }
+}

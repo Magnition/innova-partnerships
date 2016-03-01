@@ -1,0 +1,59 @@
+.brokers {
+    background-color: transparent;
+    .page-hero--short {
+        &__heading {
+            margin-bottom: 40px;
+        }
+        &__content  h2 {
+            font-family: $proxima-light;
+            @include font-size(18);
+            margin: 0px 0 10px 0;
+        }
+    }
+    h2 {
+        font-family: $proxima-light;
+        @include font-size(26);
+        margin: 40px 0 20px 0;
+    }
+    .get-quote-box h2 {
+        @include font-size(32);
+        margin: 0 0 20px 0;
+    }
+    .doc-category {
+        background: #eef4f7;
+        padding: 20px;
+        margin-bottom: 20px;
+        h3 {
+            color: $grey;
+            @include font-size(20);
+        }
+        p {
+            margin-top: 50px;
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+        .doc-wrap {
+            border: 1px solid #d4e1e7;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: -1px;
+            padding: 15px 0;
+            i {
+                display: block;
+                background:url('/sites/all/themes/cignaglobal/images/pdf-icon.png') no-repeat;
+                float: left;
+                width: 70px;
+                height: 70px;
+            }
+            span {
+                float: left;
+                margin: 20px 0 0 15px;
+            }
+            .btn {
+                float: right;
+                margin-top: 15px; 
+            }
+        }
+    }
+}

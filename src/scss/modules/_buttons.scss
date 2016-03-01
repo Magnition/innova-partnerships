@@ -1,0 +1,61 @@
+@mixin cigna-button($bg-color, $hover-bg, $color: white) {
+  font-family: $proxima-light, Arial, sans-serif;
+  color: $color;
+  border-radius: 0;
+  background: $bg-color;
+  border-color: $bg-color;
+  transition: background-color .2s ease-in-out;
+  text-decoration: none;
+  &:hover, &:focus {
+    background: $hover-bg;
+    border-color: $hover-bg;
+    color: $color;
+  }
+}
+
+.btn-cigna-primary {
+  @include cigna-button($cignaGlobalSecondary2, darken($cignaGlobalSecondary2, 5%));
+}
+
+.btn-cigna-secondary, .btn-cigna-clear {
+  @include cigna-button($cignaGlobalSecondary1, darken($cignaGlobalSecondary1, 5%));
+}
+
+.btn-cigna-tertiary {
+  @include cigna-button($cignaGlobalPrimary1, darken($cignaGlobalPrimary1, 5%));
+}
+
+.btn-cigna-quaternary {
+  @include cigna-button($cignaGlobalSecondary4, darken($cignaGlobalSecondary4, 5%), $cignaGlobalPrimary2);
+}
+
+.btn-cigna-quinary {
+  @include cigna-button($cignaGlobalPrimary2, darken($cignaGlobalPrimary2, 5%));
+}
+
+.btn-cigna-senary {
+  @include cigna-button($cignaSecondary1, darken($cignaSecondary1, 5%));
+}
+
+.btn-cigna-gray {
+  @include cigna-button($gray-dark, darken($gray-dark, 5%));
+}
+
+.btn-cigna-medgray {
+  @include cigna-button($gray, darken($gray, 5%));
+}
+
+
+.btn-broker {
+  font-family: $proxima-light, Arial, sans-serif;
+  color: #fff;
+  border-radius: 0;
+  border: solid 2px #fff;
+  margin-left: 20px;
+}
+
+// override Bootstrap button sizes
+.btn-lg {
+  @include font-size(25);
+  padding: 15px 20px;
+}

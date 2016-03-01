@@ -1,0 +1,59 @@
+///*
+// * Off Canvas
+// * --------------------------------------------------
+// */
+//
+//@include bp(tablet) {
+//  /*  off canvas */
+//  .row-offcanvas {
+//    position: relative;
+//    transition: all 0.25s ease-out;
+//  }
+//  .row-offcanvas-right .sidebar-offcanvas {
+//    right: -90%;
+//    margin-right: 0px;
+//    background-color: #f3f3f3;
+//  }
+//  .row-offcanvas-left .sidebar-offcanvas {
+//    left: -75%;
+//  }
+//  .row-offcanvas-right.active {
+//    right: 85%;
+//  }
+//  .row-offcanvas-left.active {
+//    left: 75%;
+//  }
+//  .sidebar-offcanvas {
+//    position: absolute;
+//    top: 0;
+//    width: 90%;
+//    height: 100%;
+//    display: none;
+//  }
+//}
+//
+//@include bp(wide) {
+//  .navbar-collapse {
+//    max-height: 100%;
+//  }
+//
+//  .sidebar li a, a.dropdown-toggle, .sidebar .dropdown-menu li a, .sidebar li.dropdown-header, .sidebar .clearfix {
+//    color: white !important;
+//  }
+//
+//  .sidebar {
+//    background-color: black;
+//  }
+//
+//  .sidebar .nav .open > a {
+//    background-color: darkgray;
+//  }
+//
+//  nav.navbar-default a, nav.navbar-default a.dropdown-toggle, nav.navbar-default .dropdown-menu li a {
+//    color: black !important;
+//  }
+//
+//  .sidebar .nav > li > a:hover, .sidebar .nav > li > a:focus, .sidebar .dropdown-menu > li > a:focus, .sidebar .dropdown-menu > li > a:hover {
+//    background-color: darkgray;
+//  }
+//}

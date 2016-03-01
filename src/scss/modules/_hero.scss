@@ -1,0 +1,89 @@
+ // url: /about-cigna
+ .page-node-5 {
+   .page-hero__container {
+     background-image: url('/sites/all/themes/cignaGlobal/images/ThinkstockPhotos-78777908-1.jpg');
+     background-position-x: -85px;
+     background-repeat: no-repeat;
+     @include bp(wide) {
+      background-position-x: 0px;
+     }
+   }
+ }
+
+ // across multiple urls
+ .page-hero--short__container {
+   background-image: url('/sites/all/themes/cignaGlobal/images/offset_117341.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y:0px;
+   @include bp(wide) {
+    background-position-y: -160px;
+   }
+ }
+
+ .page-node-22, .page-node-84, .node-type-press-release {
+   .page-hero__container {
+     background-image: url('/sites/all/themes/cignaGlobal/images/offset_117341.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+ }
+ 
+.page-node-44, .page-node-52, .page-node-25, .page-node-28, .page-node-24, .page-node-27, .page-node-26 {
+    .page-hero__container {
+     background-image: url('/sites/all/themes/cignaGlobal/images/cigna-global-road.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y:0px;
+      @include bp(wide) {
+       background-position-y: -160px;
+      }
+    }
+    .page-hero--short__container {
+      background-image: url('/sites/all/themes/cignaGlobal/images/cigna-global-road.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y:-60px;
+       @include bp(wide) {
+        background-position-y: -160px;
+       }
+    }
+ }
+ 
+ .page-node-44, .page-node-52 {
+  .page-hero__container {
+    background-position-y:0px;
+      @include bp(wide) {
+       background-position-y: 0px;
+    }
+  }
+ }
+ 
+.page-node-25, .page-node-28, .page-node-24, .page-node-27, .page-node-26 {
+  .page-hero__container {
+      @include bp(normal) {
+       background-position-y: -60px;
+      }
+      @include bp(wide) {
+       background-position-y: -120px;
+      }
+  }
+ }
+
+ .node-type-health-insurance-plan {
+   .page-hero__container {
+     .btn {
+       margin: 17% auto 0 auto;
+       display: block;
+     }
+   }
+ }
+
+.brokers .page-hero--short__content {
+    h1 {
+      @include font-size(28);
+    }
+    p {
+      margin-bottom: 0 !important;
+    }
+}

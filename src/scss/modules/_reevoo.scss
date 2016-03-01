@@ -1,0 +1,270 @@
+.reevoo-data-wrapper {
+  padding: 50px 0;
+}
+
+.reevoo-overview-wrapper {
+  h1,h2,h3,h4,h5 {
+    margin: 10px 0 !important;
+  }
+}
+
+.reevooapi-last-two-reviews__title {
+  @include font-size(18);
+  color: $cignaGlobalPrimary1;
+  font-family: $proxima-bold;
+  float: left;
+}
+
+.svg-reevoo-logo {
+  float: right;
+}
+
+.reevooapi-review {
+  clear: both;
+}
+
+.reevoo-rating-info {
+  @include font-size(24);
+  font-family: $proxima-bold;
+  color: $cignaGlobalPrimary1;
+}
+
+.reevoo-stars {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: darken(#f1f1f1, 20%);
+  &:before {
+    content: "\2605\2605\2605\2605\2605";
+  }
+  i {
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: $cignaGlobalSecondary2;
+    &:before {
+      content: "\2605\2605\2605\2605\2605";
+    }
+  }
+}
+
+.reevoo-ratings__list {
+  margin: 0 !important;
+  padding: 20px 0;
+  list-style: none;
+  width:100%;
+  @include bp(tablet) {
+    width:60%;
+  }
+}
+
+.reevoo-ratings__list--reviews {
+  width: 100%;
+  @include bp(tablet) {
+    width:100%;
+  }
+  .reevoo-rating {
+    width: 75%;
+    @include bp(tablet) {
+      width: 75%;
+    }
+  }
+}
+
+.reevoo-ratings__rating {
+  margin-bottom: 5px;
+  clear: both;
+  overflow: hidden;
+}
+
+.reevoo-rating {
+  position: relative;
+  .reevoo-rating-label {
+    float: left;
+    width: 50px;
+    line-height: 26px;
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  // Horizontal Charts
+  .reevoo-chart--horizontal {
+    float: left;
+    @include bp(tinymob) {
+      max-width: 250px;
+    }
+    // The Track
+    .reevoo-chart--track {
+      background-color: #f1f1f1;
+      height: 26px;
+      width: 100%;
+      position: absolute;
+    }
+    // The Moving Bar
+    .reevoo-chart--progress {
+      display: inline-block;
+      position: absolute;
+      height: 26px;
+      text-align: right;
+      color: white;
+      padding-right: 10px;
+      background-color: $cignaGlobalSecondary2;
+      z-index: 2;
+      @include animation(progressScale-horizontal 1600ms 1 forwards);
+    }
+    .reevoo-chart--progress--experience {
+      background-color: #d57fea !important;
+    }
+    .reevoo-chart--progress--benefits {
+      background-color: #43aaed !important;
+    }
+    
+  }
+  
+  .reevoo-count-label {
+      float: right;
+      width: 80px;
+      margin-right: -80px;
+      text-align: right;
+      padding-left: 5px;
+      z-index: 1000;
+    }
+}
+
+.reevoo-rating-label--left {
+  float: left;
+  width: 25%;
+  font-weight: 900;
+  @include font-size(14);
+  @include bp(tablet) {
+    @include font-size(16);
+  }
+}
+
+
+// Animations
+@include keyframes (progressScale-horizontal) {
+  0% {
+    width: 0;
+  }
+  // 100% { width: 100%; } Removed to auto fill width from inline style 
+}
+
+@include keyframes (progressScale-vertical) {
+  0% {
+    height: 0;
+  }
+  // 100% { width: 100%; } Removed to auto fill width from inline style 
+}
+
+// customer reviews specific
+
+// customer reviews
+
+.review-filter {
+  background: $gray-lighter;
+  padding: 10px;
+  overflow: hidden;
+  margin-top: 40px;
+  .form-control {
+    margin-top: -15px;
+    /*background: $gray-lighter;*/
+    border:none;
+    box-shadow: none;
+    transition: none;
+    float: left;
+    width: 46%;
+    @include bp(tablet) {
+      width: 40%;
+    }
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+  #edit-sort-by {
+    display: none;
+  }
+  .views-submit-button {
+    display: none;
+  }
+}
+
+.product-review {
+  padding: 30px 0;
+  border-bottom: 1px solid $gray-lighter;
+  .plan-name {
+    overflow: hidden;
+  }
+  .plan-badge {
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    i {
+      display: inline-block;
+      color: white;
+    }
+    .fa-bookmark {
+      margin-top: -9px;
+      font-size: 0.625rem;
+      display: block;
+    }
+  }
+  .plan-badge--silver {
+    background: #5abaf6;
+  }
+  .plan-badge--gold {
+    background: #1582c5;
+  }
+  .plan-badge--platinum {
+    background: #045487;
+  }
+  .product-content {
+    float: left;
+  }
+  .plan-title {
+    margin: 0  0 5px 0;
+  }
+  .product-review__author {
+    float: right;
+  }
+  .review-comment {
+    margin: 20px 0 0 0;
+  }
+  p {
+    clear: both;
+    margin: 10px 0 !important;
+  }
+  .reevoo-rating-label--right {
+    min-height: 60px;
+    padding-top: 30px;
+    float: left;
+    text-align: left;
+    @include bp(tablet) {
+      min-height: auto;
+      padding-top: 0;
+      float: right;
+      text-align: right;
+    }
+  }
+
+}
+
+.review-helpful {
+  &--yes {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
+
+/* Brokers Reevoo Adjustments */
+
+.brokers .reevoo-data-wrapper {
+  padding-top: 100px;
+}

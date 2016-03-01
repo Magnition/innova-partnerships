@@ -1,0 +1,87 @@
+footer, .footer {
+  text-align: left;
+
+  @include bp(tablet) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+
+  li {
+    @include font-size(14);
+  }
+  
+  h4 {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .panel-group {
+    margin-bottom: 0;
+    margin-top: 20px;
+    position: relative;
+    &:after {
+      content: '›';
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: white;
+      @include bp(tablet) {
+        content: '';
+      }
+    }
+
+  }
+
+  .panel {
+    background: $cignaGlobalPrimary1;
+    border: none;
+    box-shadow: none;
+  }
+
+  .panel-title {
+    @include font-size(18);
+    font-family: $proxima-semi;
+  }
+
+  .panel-default > .panel-heading {
+    background: $cignaGlobalPrimary1;
+    padding: 0;
+    border: none;
+  }
+
+  .list-group-item {
+    border: none;
+    background: $cignaGlobalPrimary1;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .panel-group .panel-heading + .panel-collapse > .list-group {
+    border: none;
+  }
+
+}
+
+footer, .footer {
+  .call-us-section {
+    margin-top: 20px;
+    @include bp(tablet) {
+      margin-top: 0;
+    }
+    h4 {
+        margin: 20px 0 15px 0;
+    }
+    a {
+      display: inline-block;
+    }
+  }
+}
