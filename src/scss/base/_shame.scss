@@ -1,0 +1,327 @@
+a:focus {
+  outline: none;
+}
+
+.cookie-notice {
+  text-align: center;
+  padding: 1em;
+}
+
+.node-press-release {
+  .press-release-date {
+    color: $cignaGlobalPrimary1;
+  }
+  .file {
+    &:before {
+      content: 'Download PDF Press Release';
+      display: block;
+      color: $cignaGlobalPrimary1;
+      font-family: $proxima-semi;
+      margin-bottom: 10px;
+    }
+    .file-icon {
+      display: none;
+    }
+    a {
+      color: $grey;
+      &:before {
+        margin-right: 10px;
+        @extend .fa;
+        @extend .fa-file-pdf-o;
+      }
+    }
+  }
+}
+
+// on the home page expat resources section
+// overrides the bootstrap thing
+.country-guide-panel-heading {
+  margin-left: -15px;
+}
+
+ // url: /about-cigna
+ .page-node-5 {
+   .page-hero__container {
+     background-image: url('/sites/all/themes/cignaglobal/images/thinkstockphotos-78777908-1.jpg');
+     background-position-x: -85px;
+     background-repeat: no-repeat;
+     @include bp(wide) {
+      background-position-x: 0px;
+     }
+   }
+ }
+
+ // across multiple urls
+ .page-hero--short__container {
+   background-image: url('/sites/all/themes/cignaglobal/images/offset_117341.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y:0px;
+   @include bp(wide) {
+    background-position-y: -160px;
+   }
+ }
+
+ .page-node-22, .page-node-84, .node-type-press-release {
+   .page-hero__container {
+     background-image: url('/sites/all/themes/cignaglobal/images/offset_117341.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+ }
+ 
+.page-node-44, .page-node-52, .page-node-25, .page-node-28, .page-node-24, .page-node-27, .page-node-26 {
+    .page-hero__container {
+     background-image: url('/sites/all/themes/cignaglobal/images/cigna-global-road.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y:0px;
+      @include bp(wide) {
+       background-position-y: -160px;
+      }
+    }
+    .page-hero--short__container {
+      background-image: url('/sites/all/themes/cignaglobal/images/cigna-global-road.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y:-60px;
+       @include bp(wide) {
+        background-position-y: -160px;
+       }
+    }
+ }
+ 
+ .page-node-44, .page-node-52 {
+  .page-hero__container {
+    background-position-y:0px;
+      @include bp(wide) {
+       background-position-y: 0px;
+    }
+  }
+ }
+ 
+.page-node-25, .page-node-28, .page-node-24, .page-node-27, .page-node-26 {
+  .page-hero__container {
+      @include bp(normal) {
+       background-position-y: -60px;
+      }
+      @include bp(wide) {
+       background-position-y: -120px;
+      }
+  }
+}
+
+ .node-type-health-insurance-plan {
+   .page-hero__container {
+     .btn {
+       margin: 17% auto 0 auto;
+       display: block;
+     }
+   }
+ }
+ 
+// 404 page tests by KM
+body.page-node-161  section.page-content ul {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  @include bp(tablet) {
+    width: 70%;
+  }
+  @include bp(normal) {
+    width: 50%;
+  }
+  
+}
+
+body.page-node-161  section.page-content ul > li:first-child {
+    border-top: 1px solid #d4e1e7;
+}
+
+body.page-node-161  section.page-content ul > li {
+    border-bottom: 1px solid #d4e1e7;
+    position: relative;
+        position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+body.page-node-161  section.page-content ul > li:after {
+    position: absolute;
+    content: '>';
+    color: #f79820;
+    right: 15px;
+}
+
+.maintenance {
+  padding: 50px 0;
+  @include bp(normal) {
+    padding: 100px 0;
+  }
+  background-image: url("/sites/all/themes/cignaglobal/images/offset_117341.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1, p { color: #fff; }
+}
+
+// Why Cigna Defect fix from RTC
+
+body.page-node-22 {
+
+  .mobile-blue {
+    background-color: $cignaGlobalSecondary4;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    @include bp(tablet) {
+      margin-top: 0;
+      background-color: transparent;
+    }
+    @include bp(gtipad) {
+      margin-top: 0;
+      background-color: transparent;
+    }
+    @include bp(normal) {
+      margin-top: 0;
+      background-color: transparent;
+    }
+  }
+  .lead-img-text {
+    img {
+      display: none;
+      @include bp(tablet) {
+        display: block;
+      }
+      @include bp(gtipad) {
+        display: block;
+      }
+      @include bp(normal) {
+        display: block;
+      }
+    }
+    &__text {
+      position: relative;
+      width: 90%;
+      top: 30px;
+      left: 40px;
+      bottom: 50px;
+      .is--white {
+        color: $cignaGlobalPrimary2 !important;
+      }
+      @include bp(tablet) {
+        position: absolute;
+        width: 70%;
+        top: 55px;
+        left: 40px;
+        .is--white {
+          color: white !important;
+          
+        }
+        ul li {
+          padding-bottom:0 !important;
+        }
+      }
+      @include bp(normal) {
+        width: 80%;
+      }
+      @include bp(wide) {
+        width: 65%;
+        top: 55px;
+        left: 50px;
+      }
+    }
+    
+  }
+
+}
+
+.brokers {
+  .lead-img-text {
+      z-index: 1000;
+      position: static;
+      min-height: 250px;
+      height: auto;
+      margin-top: 0;
+      @include bp(medmob) {
+        min-height: 300px;
+      }
+      @include bp(tablet) {
+        position: relative;
+      }
+      img {
+        display: none;
+        @include bp(tablet) {
+          display: block;
+        }
+      }
+      &__text {
+        margin: 0px 0 0px 30px;
+        width: 90%;
+        top:0;
+        left:0;
+        @include bp(tablet) {
+          z-index: 1000;
+          position: relative;
+          width: 60%;
+          margin: -280px 0 0px 30px;
+        }
+        @include bp(normal) {
+          width: 80%;
+          margin: -250px 0 0px 30px;
+        }
+        @include bp(wide) {
+          width: 60%;
+          margin: -280px 0 0px 30px;
+        }
+      }
+  }
+}
+// Shame fix
+.toppad {
+  padding-top:20px;
+}
+
+// shame fixes for 320px mobiles
+@media (max-width: 390px) {
+  .inpage-nav {
+    &__item {
+      &__title {
+        text-align: center;
+        width: 100%;
+        display: block;
+      }
+      .btn {
+        clear: left;
+        float: left;
+        margin: 10px auto;
+      }
+    }
+  }
+}
+
+.page-node-84, .node-type-press-release {
+  .page-hero__content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* temp shame fix for menu search button - render scripts*/
+.element-invisible {
+  display: none !important;
+}
+
+.page-node-22 {
+  section.page-content {
+    margin-bottom: 40px !important;
+  }
+  .reevooapi-last-two-reviews {
+    margin-bottom: 40px !important;
+    &__title {
+      @include font-size(21);
+    }
+  }
+}

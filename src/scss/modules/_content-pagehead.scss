@@ -1,0 +1,46 @@
+/***********************************************************************************
+ *	+ CONTENT
+ ***********************************************************************************/
+	
+	#content {
+		padding-bottom: 50px;
+	}
+
+/***********************************************************************************
+ *	- PAGE HEADER
+ ***********************************************************************************/
+ 	
+	#page-header {
+		padding: 70px 0;
+		margin-bottom: 100px;
+	}
+	
+	#page-header h4 {
+		font-weight: 500;
+		margin-bottom: 0;
+	}
+
+	#page-header.style-1 {
+		background: url(../images/page-header.jpg) no-repeat center center;
+	}
+	
+	#page-header.style-2 {
+		border-top: 1px solid #d7d7d7;
+		border-bottom: 1px solid #d7d7d7;
+	}
+	
+	#page-header.style-3 {
+		background-color: #0bbff2;
+		color: #fff;
+	}
+	
+	#page-header.style-3 a, 
+	#page-header.style-3 h4, 
+	#page-header.style-3 .breadcrumb > .active, 
+	#page-header.style-3 .breadcrumb > li + li:before {
+		color: #fff;
+	}
+	
+	#page-header.style-3 a:hover {
+		color: #a8e12a;
+	}
