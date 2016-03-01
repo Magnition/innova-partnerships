@@ -14,15 +14,7 @@ var stylestats = require('gulp-stylestats');
 var reload      = browserSync.reload;
 
 //['sass'],
-gulp.task('minifyCss',  function() {
-  //return gulp.src(config.cssSrc)
-  //  .pipe(minifyCSS(config.cssSettings))
-  //  .pipe(gulp.dest(config.dest))
-  //  .pipe(size())
-  //  .pipe(rename({
-  //          suffix: '.min'
-  //      }));
-  
+gulp.task('minifyCss',  function() {  
   return gulp.src(config.src)
       //.pipe(sourcemaps.init())
       .pipe(sass(config.settings))

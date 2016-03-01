@@ -21,7 +21,7 @@ $fa-font-path: "../fonts";
 
 // Components (specifically called as we don't use all)
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
-//@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
@@ -45,22 +45,21 @@ $fa-font-path: "../fonts";
 @import 'base/flexbox';
 
 // commonly used components
-@import 'modules/buttons';
 @import 'modules/header';
-@import 'modules/nav';
-@import 'modules/breadcrumbs';
+@import 'modules/main-nav';
+@import 'modules/search';
+@import 'modules/sticky';
+@import 'modules/content-pagehead';
 @import 'modules/footer';
-@import 'modules/footer_nav';
 
-// Cigna modules
-@import 'modules/our_plans';
-@import 'modules/core_cover';
-@import 'modules/quote_bar';
-@import 'modules/get_quote_box';
-@import 'modules/expat_resources';
-@import 'modules/contact-cta__list';
-@import 'modules/accordion';
-@import 'modules/dropdown';
+// Innova modules
+@import 'modules/about';
+@import 'modules/services';
+@import 'modules/portfolio';
+@import 'modules/blog';
+@import 'modules/shop';
+@import 'modules/contact-form';
+@import 'modules/elements';
 
 // page specific styles
 @import 'pages/home';
@@ -69,5 +68,6 @@ $fa-font-path: "../fonts";
 // landing page specific styles
 //@import 'base/bootstrap-override';
 @import 'base/helper';
+@import 'base/responsive';
 
 @import 'base/shame';

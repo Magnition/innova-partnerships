@@ -1,0 +1,68 @@
+/***********************************************************************************
+ *	- ELEMENTS
+ ***********************************************************************************/
+	
+	.elements-menu.elements-menu-sticky {
+		position: fixed;
+		top: 70px;
+		background-color: #fff;
+		z-index: 1000;
+	}
+	
+	.elements-menu.elements-menu-sticky .nav {
+		margin-top: 0;
+	}
+	
+	.elements-menu {
+		z-index: 1;
+		background-color: #fff;
+		padding: 20px;
+	}
+	
+	.elements-menu .nav {
+		list-style: none;
+	}
+	
+	.elements-menu .nav > li {
+		margin-bottom: 5px;
+	}
+	
+	.elements-menu .nav > li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.elements-menu .nav > li > a,
+	.elements-menu .nav > li > a:focus {
+		display: inline-block;
+		padding: 0;
+		font-weight: 500;
+		color: #363636;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	.elements-menu .nav > li > a:hover,
+	.elements-menu .nav > li.active > a {
+		color: #a8e12a;
+		background-color: transparent;
+	}
+	
+	.elements-menu .nav > li > a:focus {
+		background-color: transparent;
+	}
+	
+	.elements-section {
+		padding-top: 85px;
+	}
+	
+	.elements-section:first-child {
+		margin-top: -70px;
+	}
+	
+	.elements-section > *:last-child {
+		margin-bottom: 0;
+	}
+	
+	.elements-section h2 {
+		margin-bottom: 30px;
+	}

@@ -72,7 +72,8 @@ module.exports = {
     dest: dest + '/js'
   },
   production: {
-    cssSrc: drupalThemeName + '/css/*.css',
+    //cssSrc: drupalThemeName + '/css/*.css',
+    cssSrc: dest + '/css/*.css',
     jsSrc: dest + '/*.js',
     dest: dest,
     cssSettings: {

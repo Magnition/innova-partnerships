@@ -1,0 +1,125 @@
+/***********************************************************************************
+ *	- PORTFOLIO
+ ***********************************************************************************/
+	
+	.portfolio-item {
+		margin-bottom: 60px;
+		overflow: hidden;
+	}
+	
+	.isotope .portfolio-item {
+		margin-bottom: 0;
+	}
+	
+	.portfolio-item-thumbnail {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.portfolio-item-details {
+		margin-top: 30px;
+	}
+	
+	.portfolio-item-thumbnail + .portfolio-item-details {
+		padding: 0 10px;
+	}
+	
+	.portfolio-item-thumbnail img {
+		width: 100%;
+		display: block;
+	}
+	
+	.portfolio-item-hover {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 0;
+		height: 0;
+		opacity: 0;
+		background-color: rgba(11, 191, 242, 0.85);
+		color: #fff;
+	}
+	
+	.portfolio-item:hover .portfolio-item-hover {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+	
+	.portfolio-item-hover a.zoom-action {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 5px;
+		text-decoration: none;
+		color: #fff;
+		-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);
+	}
+	
+	.portfolio-item-hover a.zoom-action:hover {
+		color: #a8e12a;
+	}
+	
+	.portfolio-item-hover .portfolio-item-details {
+		padding: 30px;
+		margin-top: 0;
+	}
+	
+	.portfolio-item-hover .portfolio-item-details a {
+		color: #fff;
+	}
+	
+	.portfolio-item-hover .portfolio-item-details h4 {
+		position: absolute;
+		bottom: 20px;
+		padding-right: 45px;
+	}
+	
+	.portfolio-item-hover .portfolio-item-details h4 a:hover {
+		color: #a8e12a;
+	}
+	
+	.portfolio-item-hover .portfolio-item-details + a.zoom-action {
+		top: auto;
+		bottom: 25px;
+		left: auto;
+		right: 25px;
+		-webkit-transform: translate(0);
+			-ms-transform: translate(0);
+				transform: translate(0);
+	}
+	
+	.portfolio-item-details p a {
+		font-size: 13px;
+		color: #636363;
+	}
+	
+	.portfolio-item-details p a:before {
+		content: "/";
+		padding-right: 3px;
+		display: inline-block;
+	}
+	
+	.portfolio-item-details h4 {
+		font-weight: 400;
+	}
+	
+	.portfolio-parallax {
+		padding: 0;
+	}
+	
+	.portfolio-parallax.no-margin {
+		margin-bottom: 0;
+	}
+	
+	.portfolio-parallax .portfolio-item-thumbnail {
+		height: 400px;
+	}
+	
+	.portfolio-parallax .portfolio-item {
+		margin-bottom: 0;
+	}

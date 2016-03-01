@@ -1,0 +1,216 @@
+	
+/***********************************************************************************
+ *	+ RESPONSIVE
+ ***********************************************************************************/
+/***********************************************************************************
+ *	- LARGE DISPALY (>1200px)
+ ***********************************************************************************/
+ 	
+	@media (min-width: 1200px) {
+		
+		.products .product .add_to_wishlist {
+			left: 28px;
+		}
+		
+	}
+ 
+ 
+/***********************************************************************************
+ *	- SMALL DISPLAY (TABLETS)
+ ***********************************************************************************/
+ 
+ 	@media (min-width: 768px) and (max-width: 991px) {
+		
+		.menu {
+			display: none;
+		}
+		
+		a.search-button + nav {
+			margin-right: 0;
+		}
+		
+		#mobile-menu-button {
+			display: block;
+
+		}
+		
+		a.search-button {
+			top: 52px;
+			right: 75px;
+		}
+		
+		#search-container input[type="search"] {
+			width: 90%;
+		}
+		
+		.commentlist li > ul.children {
+			margin-left: 60px;
+		}
+		
+		.products .product {
+			width: 33.33333%;
+		}
+		
+		.products.col-3 .product {
+			width: 50%;
+		}
+		
+		.products.col-4 .product {
+			width: 33.33333%;
+		}
+		
+		.elements-menu { display: none; }
+		
+	}
+ 
+/***********************************************************************************
+ *	- EXTRA SMALL DISPLAY (PHONES)
+ ***********************************************************************************/
+	
+	@media (max-width: 767px) {
+	
+		#fullscreen header {
+			position: relative;
+		}
+		
+		#header-top .widget-language + .widget {
+			margin-left: 0;
+			padding-right: 100px;
+		}
+		
+		#header-top .widget-language {
+			float: none;
+			position: absolute;
+			top: 0;
+			right: 20px;
+		}
+		
+		#header-top .widget-contact ul li {
+			display: block;
+		}
+		
+		#header-top .widget-pages ul {
+			text-align: left;
+		}
+		
+		#logo {
+			padding-right: 50px;
+		}
+		
+		.menu {
+			display: none;
+		}
+		
+		#mobile-menu-button {
+			position: absolute;
+			top: 0;
+			right: 20px;
+			display: block;
+		}
+		
+		a.search-button {
+			top: 52px;
+			right: 75px;
+		}
+		
+		#search-container input[type="search"] {
+			width: 80%;
+		}
+		
+		.service-box.style-4.left-side {
+			margin-right: 0;
+		}
+		
+		.service-box.style-4.right-side {
+			margin-left: 0;
+		}
+		
+		.blog-article-author {
+			padding: 25px;
+		}
+		
+		.blog-article-author > img {
+			float: none;
+		}
+		
+		.blog-article-author-details {
+			margin-left: 0;
+		}
+		
+		.commentlist li > ul.children {
+			margin-left: 20px;
+		}
+		
+		.comment-body {
+			padding-left: 0;
+		}
+		
+		.comment-meta {
+			margin-left: 100px;
+			padding-top: 15px;
+		}
+		
+		.products .product {
+			float: none;
+			width: 100%;
+		}
+		
+		.products.col-3 .product,
+		.products.col-4 .product {
+			width: 100%;
+		}
+		
+		.product .images {
+			float: none;
+			width: 100%;
+			padding-right: 0;
+			margin-bottom: 50px;
+		}
+		
+		.summary  {
+			float: none;
+			width: 100%;
+		}
+		
+		.product .images .product-thumbs {
+			width: 20%;
+		}
+		
+		.product .images > a {
+			width: 80%;
+		}
+		
+		.elements-menu { display: none; }
+		
+	}
+	
+/***********************************************************************************
+ *	- EXTRA SMALL DISPLAY (PHONES LANDSCAPE)
+ ***********************************************************************************/
+ 
+ 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+		.portfolio-item-hover .portfolio-item-details {
+			padding: 15px;
+		}
+		
+		.portfolio-item-hover .portfolio-item-details h4 {
+			bottom: 10px;
+		}
+		
+		.portfolio-item-hover .portfolio-item-details + a.zoom-action {
+			bottom: 15px;
+			right: 15px;
+		}
+		
+		.products .product {
+			float: left;
+			width: 50%;
+		}
+		
+		.products.col-3 .product,
+		.products.col-4 .product {
+			width: 50%;
+		}
+		
+	}
