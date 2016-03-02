@@ -1,0 +1,113 @@
+@function calculateRem($size, $base: $base-font-size) {
+  $remSize: $size / $base;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size * 1px;
+  font-size: calculateRem($size);
+}
+
+@function em($px, $base: $base-font-size) {
+  @return ($px / $base) * 1em;
+}
+
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.visuallyhidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: -100%;
+  display: block;
+}
+
+%vertically_align_center {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin placeholder {
+  $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
+  @each $placeholder in $placeholders {
+    &:#{$placeholder}-placeholder {
+      @content;
+    }
+  }
+}
+
+@mixin zero {
+  padding: 0;
+  margin: 0;
+}
+
+// breakpoints
+@mixin bp($media) {
+  @if $media == tinymob {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  }
+  @if $media == medmob {
+    @media only screen and (max-width: 500px) {
+      @content;
+    }
+  }
+  @if $media == tablet {
+    @media only screen and (min-width: $tablet) {
+      @content;
+    }
+  }
+  @else if $media == normal {
+    @media only screen and (min-width: $normal) {
+      @content;
+    }
+  }
+  @else if $media == gtipad {
+    @media only screen and (min-width: $gtipad) {
+      @content;
+    }
+  }
+  @else if $media == wide {
+    @media only screen and (min-width: $wide) {
+      @content;
+    }
+  }
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes $animation-name {
+    @content;
+  }
+  @-moz-keyframes $animation-name {
+    @content;
+  }
+  @keyframes $animation-name {
+    @content;
+  }
+}
