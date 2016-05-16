@@ -1,0 +1,4 @@
+node_modules
+provision
+bower_components
+.vagrant
