@@ -4,8 +4,8 @@
  
  	#footer {
 		padding: 85px 0 30px;
-		background-color: #151515;
-		color: #d7d7d7;
+		background-color: $innovaPrimary1;
+		color: $white;
 	}
 	
 	#footer a,
@@ -46,38 +46,41 @@
  *	+ FOOTER BOTTOM
  ***********************************************************************************/
  
- 	#footer-bottom {
+ 	.social-links {
 		padding: 20px 0;
-		background-color: #181818;
+		background-color: $innovaPrimary3;
+		color: $white;
+		.svg-innova-logo--white {
+			display: inline-block;
+		}
+	}
+	
+	.social-links a,
+	.social-links h1,
+	.social-links h2,
+	.social-links h3,
+	.social-links h4,
+	.social-links h5,
+	.social-links h6 {
 		color: #d7d7d7;
 	}
 	
-	#footer-bottom a,
-	#footer-bottom h1,
-	#footer-bottom h2,
-	#footer-bottom h3,
-	#footer-bottom h4,
-	#footer-bottom h5,
-	#footer-bottom h6 {
-		color: #d7d7d7;
-	}
-	
-	#footer-bottom a:hover {
+	.social-links a:hover {
 		color: #a8e12a;
 	}
 	
-	#footer-bottom .widget:last-child {
+	.social-links .widget:last-child {
 		margin-bottom: 0;
 	}
 	
-	#footer-bottom .widget-tags a {
+	.social-links .widget-tags a {
 		color: #fff;
 	}
 	
-	#footer-bottom .widget-pages ul li,
-	#footer-bottom .widget-archives ul li,
-	#footer-bottom .widget-metadata ul li, 
-	#footer-bottom .widget-categories ul li,
-	#footer-bottom .widget-recent-posts ul li {
+	.social-links .widget-pages ul li,
+	.social-links .widget-archives ul li,
+	.social-links .widget-metadata ul li, 
+	.social-links .widget-categories ul li,
+	.social-links .widget-recent-posts ul li {
 		border-bottom-color: #636363;
 	}

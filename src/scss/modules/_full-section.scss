@@ -1,0 +1,362 @@
+/***********************************************************************************
+ *	+ FULL SECTIONS
+ ***********************************************************************************/
+	
+	.full-section {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 100px;
+		padding: 50px 0;
+		background: no-repeat center center;
+	}
+	
+	.full-section-shadow-top {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 76px;
+		background: url(../images/shadow-top.png) no-repeat top center;
+	}
+	
+	.full-section-shadow-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 76px;
+		background: url(../images/shadow-bottom.png) no-repeat bottom center;
+	}
+	
+	.full-section-pattern {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-image: url(../../images/backgrounds/pattern.png);
+	}
+	
+	.full-section-container {
+		position: absolute;
+		z-index: 2;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+	}
+	
+	#fullscreen .full-section-container {
+		top: 60%;
+	}
+	
+	.half-image {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: no-repeat center left;
+	}
+	
+	.half-image-left .half-image { left: -50%; }
+	.half-image-right .half-image { right: -50%; }
+	
+	.half-image img { display: none; }
+	
+	.parallax { 
+		background-attachment: fixed !important;
+		-webkit-background-size: cover !important;
+				background-size: cover !important;	
+	}
+	
+	.parallax-multilayer .parallax-layer  {
+		position: absolute;
+		top: 0;
+		left: 0;
+		-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);	
+				transform: translate(-50%,-50%);
+	}
+	
+	.parallax-layer.title {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		font-size: 16px;
+		line-height: 100px;
+		text-align: center;
+		background-color: #0bbff2;
+		color: #fff;
+	}
+	
+	.parallax-layer.title.style-2 {
+		background-color: #a8e12a;
+	}
+	
+	.full-section.dark-section {
+		background-color: #363636;
+		color: #fff;
+	}
+	
+	.full-section.dark-section h1,
+	.full-section.dark-section h2,
+	.full-section.dark-section h3,
+	.full-section.dark-section h4,
+	.full-section.dark-section h5,
+	.full-section.dark-section h6,
+	.full-section.dark-section h1 a,
+	.full-section.dark-section h2 a,
+	.full-section.dark-section h3 a,
+	.full-section.dark-section h4 a,
+	.full-section.dark-section h5 a,
+	.full-section.dark-section h6 a,
+	.full-section.dark-section .filter li a,
+	.full-section.dark-section .social-media a,
+	.full-section.dark-section .counter-value, 
+	.full-section.dark-section  .pie-chart-percent,
+	.full-section.dark-section .portfolio-item-details p a, 
+	.full-section.dark-section .comment-metadata a,
+	.full-section.dark-section .comment-author .fn,
+	.full-section.dark-section .widget-pages ul li a,
+	.full-section.dark-section .widget-archives ul li a,
+	.full-section.dark-section .widget-metadata ul li a,
+	.full-section.dark-section .widget-categories ul li a,
+	.full-section.dark-section .widget-recent-comments ul li a,
+	.full-section.dark-section .widget-recent-posts ul li .post-title {
+		color: #fff;
+	}
+	
+	.full-section.dark-section h1 a:hover,
+	.full-section.dark-section h2 a:hover,
+	.full-section.dark-section h3 a:hover,
+	.full-section.dark-section h4 a:hover,
+	.full-section.dark-section h5 a:hover,
+	.full-section.dark-section h6 a:hover {
+		color: #0bbff2;
+	}
+	
+	.full-section.dark-section .sub-headline h6,
+	.full-section.dark-section .widget-pages ul li a:hover,
+	.full-section.dark-section .widget-archives ul li a:hover,
+	.full-section.dark-section .widget-metadata ul li a:hover,
+	.full-section.dark-section .widget-categories ul li a:hover,
+	.full-section.dark-section .widget-recent-posts ul li .post-title:hover {
+		color: #a8e12a;
+	}
+	
+	.full-section.dark-section .panel-title a,
+	.full-section.dark-section .panel-title a:focus,
+	.full-section.dark-section .service-box.style-6  {
+		color: #363636;
+	}
+	
+	.full-section.dark-section .panel-title a:hover,
+	.full-section.dark-section  .panel-title a[aria-expanded="true"] {
+		color: #fff;
+	}
+	
+	.full-section.dark-section .testimonial, 
+	.full-section.dark-section .service-box.style-6 h4 a { color: #636363; }
+	
+	
+	/* BACKROUNDS AND STYLE FOR FULL SECTIONS */
+	#section-1 {
+		padding: 150px 0 120px;
+		margin-top: 80px;
+		background-image: url(../../images/backgrounds/bg-1.jpg);
+	}
+	
+	#section-2 {
+		padding: 100px 0;
+		margin-top: 60px;
+		margin-bottom: 0;
+		background-image: url(../../images/backgrounds/pattern.png);
+	}
+	
+	#section-3 {
+		padding: 120px 0;
+		background-color: #f8f8f8;
+	}
+	
+	#section-4 {
+		padding-top: 250px;
+		padding-bottom: 0;
+		margin-top: 50px;
+		margin-bottom: -50px;
+		background-image: url(../../images/backgrounds/bg-3.jpg);
+	}
+	
+	#section-5 {
+		margin-top: 100px;
+		margin-bottom: 0;
+		padding: 100px 0 50px;
+		background-color: $grayback;
+		//background-image: url(../../images/backgrounds/bg-4.jpg);
+	}
+	
+	#section-6 {
+		margin-bottom: 0;
+		padding: 100px 0 50px;
+		background-image: url(../../images/backgrounds/bg-5.jpg);
+	}
+	
+	#section-7 {
+		margin-bottom: 0;
+		padding: 100px 0 50px;
+		background-image: url(../../images/backgrounds/bg-6.jpg);
+	}
+	
+	#section-8 {
+		overflow: visible;
+		padding-top: 70px;
+		padding-bottom: 0;
+		border-bottom: 5px solid #13b0e4;
+		background-color: #0bbff2;
+	}
+	
+	#section-8 a {
+		color: #fff;
+	}
+	
+	#section-8:before {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		bottom: -42px;
+		left: 25%;
+		width: 0; 
+		height: 0; 
+		border-top: 42px solid #13b0e4; 
+		border-left: 40px solid transparent;
+		-moz-transform: scale(0.9999);
+	}
+	
+	#section-8:after {
+		content: "";
+		z-index: 2;
+		position: absolute;
+		bottom: -32px;
+		left: 25%;
+		width: 0; 
+		height: 0; 
+		border-top: 42px solid #0bbff2; 
+		border-left: 37px solid transparent;
+		-moz-transform: scale(0.9999);
+	}
+	
+	#section-9 {
+		padding: 260px 0 240px;
+		background-image: url(../../images/backgrounds/bg-7.jpg);
+	}
+	
+	#section-10 {
+		padding: 120px 0 70px;
+		margin-top: 50px;
+		background-image: url(../../images/backgrounds/bg-8.jpg);
+	}
+	
+	#section-11 {
+		padding: 100px 0 50px;
+		margin-bottom: -50px;
+		background-image: url(../../images/backgrounds/bg-9.jpg);
+	}
+	
+	#section-12 {
+		margin-top: 60px;
+		margin-bottom: 0;
+		padding: 100px 0;
+		padding-bottom: 0;
+		background-image: url(../../images/backgrounds/bg-9.jpg);
+	}
+	
+	#section-13 {
+		padding: 140px 0 110px;
+		margin-bottom: 0;
+		background-image: url(../../images/backgrounds/pattern.png);
+	}
+	
+	#section-14 {
+		margin-top: -1px;
+		padding-bottom: 30px;
+		background-color: #181818;
+	}
+	
+	#section-14 h4 {
+		margin-top: 5px;
+	}
+	
+	#section-15 {
+		margin-top: 60px;
+		padding: 100px 0 60px; 
+		background-image: url(../../images/backgrounds/bg-10.jpg);
+	}
+	
+	#section-16 {
+		margin-top: 70px;
+		padding-top: 100px;
+		padding-bottom: 0;
+		//background-image: url(../../images/backgrounds/bg-11.jpg);
+	}
+	
+	#section-17 {
+		margin-top: 60px;
+		padding: 100px 0 50px;
+		background-image: url(../../images/backgrounds/bg-9.jpg);
+	}
+	
+	#section-18 {
+		padding: 80px 0 30px;
+		background-color: #a8e12a;
+	}
+	
+	#section-18 a {
+		color: #fff;
+	}
+	
+	#section-19 {
+		padding: 100px 0 90px;
+		border-bottom: 5px solid #13b0e4; 
+		background-color: #0bbff2;
+	}
+	
+	#section-20 {
+		height: 650px;
+		background-image: url(../../images/backgrounds/bg-1.jpg);
+	}
+	
+	#section-21 {
+		height: 650px;
+		background-image: url(../../images/index/multilayer-parallax/bg-parallax-1.jpg);
+	}
+	
+	#section-22 {
+		height: 650px;
+		background-image: url(../../images/backgrounds/bg-10.jpg);
+	}
+	
+	#section-23 {
+		height: 650px;
+		background-image: url(../../images/backgrounds/bg-12.jpg);
+	}
+	
+	#section-24 {
+		height: 650px;
+		background-image: url(../../images/backgrounds/bg-5.jpg);
+	}
+	
+	#section-25 {
+		margin-top: 20px;
+		padding: 100px 0 50px;
+		background-image: url(../../images/backgrounds/bg-13.jpg);
+	}
+	
+	#section-26 {
+		padding-top: 150px;
+		height: 750px;
+		margin-top: 50px;
+		margin-bottom: 0;
+		background-color: #f8f8f8;
+	}

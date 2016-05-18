@@ -5,12 +5,12 @@
 // if you're adding a new task, create a new task.js file and set
 // the appropriate module export settings appropriately
 
-var dest = './html/wp-content/themes/';
+var dest = './www/wordpress/wp-content/themes/';
 var drupalThemeName = 'innova-theme';
 var drupalThemePath = dest + drupalThemeName;
 var src = './src';
 var drupalTemplates = dest + drupalThemeName + '/templates';
-var siteRoot = './html/';
+var siteRoot = './www/';
 
 module.exports = {
   browserSync: {

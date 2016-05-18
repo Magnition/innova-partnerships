@@ -1,0 +1,118 @@
+/***********************************************************************************
+ *	+ TIMELINE
+ ***********************************************************************************/	
+	
+	.timeline {
+		position: relative;
+		list-style: none;
+		margin-bottom: 0;
+	}
+	
+	.timeline:before {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 50%;
+		height: 100%;
+		content: "";
+		border-left: 1px solid #d7d7d7; 
+	}
+	
+	.timeline .timeline-left-side, 
+	.timeline .timeline-right-side {
+		position: relative;
+		padding: 30px;
+		margin-bottom: 20px; 
+		border-radius: 10px;
+		width: 45%;
+		border: 1px solid transparent;
+		-webkit-transition: border 0.3s;
+				transition: border 0.3s;
+	}
+	
+	.timeline .timeline-left-side *:last-child, 
+	.timeline .timeline-right-side *:last-child {
+		margin-bottom: 0;
+	}
+	
+	.timeline .timeline-left-side > span, 
+	.timeline .timeline-right-side > span {
+		position: absolute;
+		z-index: 2;
+		top: -1px;
+		display: block;
+		width: 50px;
+		height: 50px;
+		font-size: 24px;
+		line-height: 50px;
+		text-align: center;
+		border-radius: 5px;
+		border-bottom: 3px solid #13b0e4;
+		background-color: #0bbff2;
+		color: #fff;
+	}
+	
+	.timeline .timeline-left-side > span {
+		right: 0;
+		margin-right: -83px;
+	} 
+	
+	.timeline .timeline-right-side > span {
+		left: 0;
+		margin-left: -83px;
+	}
+	
+	.timeline .timeline-left-side > span:before, 
+	.timeline .timeline-right-side > span:before {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		bottom: -10px;
+		left: 50%;
+		margin-left: -8px;
+		width: 0;
+		height: 0;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 10px solid #13b0e4;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.timeline .timeline-left-side > span:after, 
+	.timeline .timeline-right-side > span:after {
+		content: "";
+		z-index: 2;
+		position: absolute;
+		bottom: -6px;
+		left: 50%;
+		margin-left: -8px;
+		width: 0;
+		height: 0;
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 10px solid #0bbff2;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.timeline .timeline-left-side {
+		float: left;
+	} 
+	
+	.timeline .timeline-right-side {
+		float: right;
+	}
+	
+	.timeline li:hover .timeline-left-side, 
+	.timeline li:hover .timeline-right-side {
+		border-color: #a8e12a;
+	}
+	
+	.timeline li:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
+	

@@ -1,0 +1,144 @@
+/***********************************************************************************
+ *	+ TESTIMONIALS
+ ***********************************************************************************/
+	#section-16 {
+		background-image: url('../images/testimonials-background.jpg');
+		h1 {
+			color: $white;
+		}
+	}
+	
+	/* TESTIMONIAL STYLE 1 */
+	.testimonial.style-1 {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	
+	.testimonial.style-1 blockquote {
+		position: relative;
+		padding: 75px;
+		font-size: 18px;
+		line-height: 28px;
+		font-style: italic;
+		margin-bottom: 50px;
+		border-radius: 5px;
+		border-bottom: 3px solid #f2f2f2;
+		background-color: #fff;
+	}
+	
+	.testimonial.style-1 blockquote:before {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		bottom: -15px;
+		left: 50%;
+		margin-left: -12px;
+		width: 0;
+		height: 0;
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 15px solid #f2f2f2;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.testimonial.style-1 blockquote:after {
+		content: "";
+		z-index: 2;
+		position: absolute;
+		bottom: -11px;
+		left: 50%;
+		margin-left: -12px;
+		width: 0;
+		height: 0;
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 15px solid #fff;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.testimonial.style-1 blockquote p:last-child  {
+		margin-bottom: 0;
+	}
+	
+	.testimonial.style-1 h4 {
+		margin-bottom: 20px;
+		font-weight: 500;
+		color: $white;
+	}
+	
+	.testimonial.style-1 h4 small {
+		display: block;
+		margin-top: 10px;
+		font-size: 14px;
+		font-weight: 400;
+		color: $innovaPrimary2;
+	}
+	
+	
+	/* TESTIMONIAL STYLE 2 */
+	.testimonial.style-2 {
+		margin-bottom: 50px;
+	}
+	
+	.testimonial.style-2 blockquote {
+		position: relative;
+		padding: 75px 30px;
+		font-size: 16px;
+		line-height: 26px;
+		font-style: italic;
+		margin-bottom: 40px;
+		border-radius: 5px;
+		border-bottom: 3px solid #f2f2f2;
+		background-color: #fff;
+	}
+	
+	.testimonial.style-2 blockquote:before {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		bottom: -15px;
+		left: 42px;
+		width: 0;
+		height: 0;
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 15px solid #f2f2f2;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.testimonial.style-2 blockquote:after {
+		content: "";
+		z-index: 2;
+		position: absolute;
+		bottom: -11px;
+		left: 42px;
+		width: 0;
+		height: 0;
+		border-left: 12px solid transparent;
+		border-right: 12px solid transparent;
+		border-top: 15px solid #fff;
+		-moz-transform: scale(0.9999);
+	}
+	
+	.testimonial.style-2 blockquote p:last-child  {
+		margin-bottom: 0;
+	}
+	
+	.testimonial.style-2 > img {
+		float: left;
+		margin: 0 20px;
+	}
+	
+	.testimonial.style-2 h5 {
+		padding-top: 12px;
+		margin-bottom: 20px;
+		font-weight: 500;
+	}
+	
+	.testimonial.style-2 h5 small {
+		display: block;
+		margin-top: 5px;
+		font-size: 13px;
+		font-weight: 400;
+		color: #a8e12a;
+	}

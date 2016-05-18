@@ -82,16 +82,16 @@ a:focus {
 }
 
 .is--blue {
-  color: $cignaGlobalPrimary2 !important;
+  color: $innovaPrimary1 !important;
 }
 
-.is--orange {
-  color: $cignaGlobalSecondary2 !important;
-}
-
-.is--white {
-  color: white !important;
-}
+//.is--orange {
+//  color: $cignaGlobalSecondary2 !important;
+//}
+//
+//.is--white {
+//  color: white !important;
+//}
 
 .list--green-checks {
   @include zero;
@@ -109,7 +109,7 @@ a:focus {
     &:before {
       @extend .fa;
       @extend .fa-check;
-      color: $cignaSecondary1;
+      //color: $cignaSecondary1;
       padding-right: 16px;
     }
   }

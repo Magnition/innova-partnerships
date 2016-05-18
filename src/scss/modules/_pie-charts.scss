@@ -1,0 +1,38 @@
+/***********************************************************************************
+ *	+ PIE CHARTS
+ ***********************************************************************************/
+ 	
+	.pie-chart-container {
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	
+	.pie-chart {
+		position: relative;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	
+	.pie-chart canvas {
+		max-width: 100%;
+	}
+	
+	.pie-chart-percent {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		font-size: 18px;
+		font-weight: 500;
+		color: #363636;
+		-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+	}
+	
+	.pie-chart-details {}
+	
+	.pie-chart-details h5 {
+		font-weight: 500;
+		margin-bottom: 20px;
+	}

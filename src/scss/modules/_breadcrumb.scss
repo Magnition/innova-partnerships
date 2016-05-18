@@ -1,0 +1,23 @@
+/***********************************************************************************
+ *	+ BREADCRUMB
+ ***********************************************************************************/
+ 	
+	.breadcrumb {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		color: #363636;
+	}
+	
+	.breadcrumb li a, 
+	.breadcrumb > .active, 
+	.breadcrumb > li + li:before{
+		color: #363636;
+	}
+	
+	.breadcrumb li a:hover {
+		text-decoration: none;
+		color: #a8e12a;
+	}
+	

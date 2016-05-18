@@ -11,17 +11,44 @@
  ***********************************************************************************/
  	
 	#page-header {
-		padding: 70px 0;
+		padding: 20px 0;
 		margin-bottom: 100px;
+		background-color: $innovaPrimary2;
+		background-image:
+		  linear-gradient(
+			to right, 
+			$innovaPrimary2, $innovaPrimary1
+		  );
+		/* fallback */
+		background-color: #1a82f7;
+		//background-image: url(images/linear_bg_1.png);
+		//background-repeat: repeat-y;
+	  
+		/* Safari 4-5, Chrome 1-9 */
+		background: -webkit-gradient(linear, left top, right top, from($innovaPrimary2), to($innovaPrimary1));
+	  
+		/* Safari 5.1, Chrome 10+ */
+		background: -webkit-linear-gradient(left, $innovaPrimary2, $innovaPrimary1);
+	  
+		/* Firefox 3.6+ */
+		background: -moz-linear-gradient(left, $innovaPrimary2, $innovaPrimary1);
+	  
+		/* IE 10 */
+		background: -ms-linear-gradient(left, $innovaPrimary2, $innovaPrimary1);
+	  
+		/* Opera 11.10+ */
+		background: -o-linear-gradient(left, $innovaPrimary2, $innovaPrimary1);
 	}
 	
 	#page-header h4 {
 		font-weight: 500;
 		margin-bottom: 0;
+		@include font-size(35);
+		color: $white;
 	}
 
 	#page-header.style-1 {
-		background: url(../images/page-header.jpg) no-repeat center center;
+		//background: url(../images/page-header.jpg) no-repeat center center;
 	}
 	
 	#page-header.style-2 {

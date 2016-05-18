@@ -1,0 +1,42 @@
+/***********************************************************************************
+ *	+ CALLOUT BOX
+ ***********************************************************************************/
+	
+	.callout-box {
+		position: relative;
+		padding: 25px 0;
+		margin-bottom: 100px;
+		background-color: #f8f8f8;
+	}
+	
+	.callout-box .btn {
+		margin-top: 7px;
+		margin-bottom: 0;
+	}
+	
+	.callout-box-icon {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 108px;
+		margin: -25px 0 -25px -15px;
+		text-align: center;
+		background-color: #a8e12a;
+		color: #fff;
+	}
+	
+	.callout-box-icon > i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-size: 32px;
+		line-height: 32px;
+		-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);
+	}
+	
+	.callout-box-content {
+		margin-left: 120px;
+	}
