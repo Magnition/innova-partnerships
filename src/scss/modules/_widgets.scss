@@ -6,9 +6,10 @@
 		margin-bottom: 90px;
 	}
 	
-	.widget-title {
+	.widgettitle {
 		font-weight: 500;
 		margin-bottom: 45px;
+		margin-left: 15px;
 	}
 	
 	/* WIDGET TEXT */
@@ -47,51 +48,51 @@
 	
 	
 	/* WIDGET CATEGORIES */
-	.widget-categories {}
+	.widget_categories {}
 	
-	.widget-categories ul {
+	.widget_categories ul {
 		list-style: none;
 		margin-bottom: 0;
 		font-size: 16px;
 		font-weight: 400;
 	}
 	
-	.widget-categories > ul > li {
+	.widget_categories > ul > li {
 		padding-bottom: 12px;
 		margin-bottom: 12px;
-		border-bottom: 1px solid #f2f2f2;
+		border-bottom: 1px solid $grey;
 	}
 	
-	.widget-categories ul li:last-child {
+	.widget_categories ul li:last-child {
 		padding-bottom: 0;
 		margin-bottom: 0;
 		border-bottom: none;
 	}
 	
-	.widget-categories > ul > li:before {
-		font-family: "mt-icons";
-		font-size: 10px;
-		content: "\e60d";
+	.widget_categories > ul > li:before {
+		font-family: "FontAwesome";
+		font-size: 20px;
+		content: "\f105";
 		margin-right: 15px;
 		position: relative;
 		top: -1px;
-		color: #a8e12a;
+		color: $innovaPrimary2;
 	}
 	
-	.widget-categories > ul > li.open:before {
-		content: "\e608";
+	.widget_categories > ul > li.open:before {
+		//content: "\e608";
 	}
 	
-	.widget-categories ul li a {
-		color: #363636;
+	.widget_categories ul li a {
+		color: $innovaPrimary2;
 	}
 	
-	.widget-categories ul li a:hover {
-		text-decoration: none;
-		color: #a8e12a;
+	.widget_categories ul li a:hover {
+		color: #9b4786;
+        text-decoration: underline;
 	}
 	
-	.widget-categories ul li ul {
+	.widget_categories ul li ul {
 		display: none;
 		margin-left: 30px;
 		margin-top: 10px;
@@ -100,9 +101,9 @@
 	
 	
 	/* WIDGET CATEGORIES DROPDOWN */
-	.widget-categories-dropdown {}
+	.widget_categories-dropdown {}
 	
-	.widget-categories-dropdown select {
+	.widget_categories-dropdown select {
 		width: 100%;
 	}
 	

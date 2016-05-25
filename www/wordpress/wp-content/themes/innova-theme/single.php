@@ -11,25 +11,20 @@
 				</div><!-- blog-article-thumbnail -->
 				<?php } ?>								
 				
-				<?php if (is_single()): ?>
+				<?php if (is_singular('case-study')): ?>
+				<h3><?php the_title(); ?></h3>
+				<?php else: ?>
 				<div class="blog-article-date"><?php the_time('j');?> <small><?php the_time('M');?></small></div>
+				<div class="blog-article-details">
+					<h3><?php the_title(); ?></h3>
+				</div><!-- blog-article-details -->
 				<?php endif; ?>
-							
-							<div class="blog-article-details">
-							
-								<h3><?php the_title(); ?></h3>
-								
-								
-							</div><!-- blog-article-details -->
-							
-							<?php the_content(); ?>
-					</div><!-- blog-article -->
-						
-                        
-                        
-						
-						
+				
+				<?php the_content(); ?>
+				</div><!-- blog-article -->
+
 		</div><!-- col -->
+		<?php get_sidebar(); ?>
 	</div>
 </div>
 					

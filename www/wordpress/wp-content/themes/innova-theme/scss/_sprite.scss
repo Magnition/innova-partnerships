@@ -4,7 +4,7 @@
 
 .svg-business-growth {
 	@extend %svg-common;
-	background-position: 92.87925696594428% 84.45945945945945%;
+	background-position: 0 99.77495107632093%;
 }
 
 .svg-business-growth-dims {
@@ -14,7 +14,7 @@
 
 .svg-innova-logo {
 	@extend %svg-common;
-	background-position: 0 50.91844232182219%;
+	background-position: 0 31.20216118865376%;
 }
 
 .svg-innova-logo-dims {
@@ -34,12 +34,22 @@
 
 .svg-innova-logo--white-footer {
 	@extend %svg-common;
-	background-position: 0 99.95628733789887%;
+	background-position: 0 61.453014422646234%;
 }
 
 .svg-innova-logo--white-footer-dims {
 	width: 288.72px;
 	height: 66.74px;
+}
+
+.svg-lets-talk {
+	@extend %svg-common;
+	background-position: 99.1014799154334% 48.25090470446321%;
+}
+
+.svg-lets-talk-dims {
+	width: 119.28px;
+	height: 82.75px;
 }
 
 .svg-venture-catalysts {

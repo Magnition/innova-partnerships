@@ -7,17 +7,29 @@
 		margin: 0;
 		padding: 0;
 		background-color: transparent;
-		color: #363636;
+		color: $white;
+		list-style: none;
+		float: right;
+		li {
+			float: left;
+			&:after {
+				content: '/';
+				padding: 0 5px;
+			}
+		}
+		li:last-of-type {
+			display: none;
+		}
 	}
 	
 	.breadcrumb li a, 
 	.breadcrumb > .active, 
 	.breadcrumb > li + li:before{
-		color: #363636;
+		color: $white;
 	}
 	
 	.breadcrumb li a:hover {
 		text-decoration: none;
-		color: #a8e12a;
+		color: $innovaPrimary2;
 	}
 	

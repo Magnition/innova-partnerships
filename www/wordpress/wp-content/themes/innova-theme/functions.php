@@ -140,10 +140,10 @@ function bootstrapwp_widgets_init() {
   register_sidebar( array(
     'name' => 'Posts Sidebar',
     'id' => 'sidebar-posts',
-    'before_widget' => '<div class="widget"><ul class="side-list">',
-    'after_widget' => "</ul></div>",
-    'before_title' => '<p class="side-heads">',
-    'after_title' => '</p>',
+    'before_widget' => '<div class="widget widget_categories">',
+    'after_widget' => "</div>",
+    'before_title' => '<h3 class="widgettitle">',
+    'after_title' => '</h3>',
   ) );
   register_sidebar( array(
     'name' => 'Footer Col 1',
@@ -632,7 +632,7 @@ add_action( 'save_post', 'bootstrapwp_category_transient_flusher' );
 | */
  function bootstrapwp_breadcrumbs() {
 
-  $delimiter = '<span class="divider">/</span>';
+  $delimiter = '';
   $home = 'Home'; // text for the 'Home' link
   $before = '<li class="active">'; // tag before the current crumb
   $after = '</li>'; // tag after the current crumb

@@ -56,6 +56,7 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!-- Custom Fonts -->
+	  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
 	<link href="<?php echo get_template_directory_uri(); ?>/css/responsive.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -133,13 +134,18 @@
  <!-- CONTENT -->
 <div id="content">
   
-  <?php //if(is_home()): ?>
+  <?php if(is_front_page()): ?>
+  <?php else: ?>
 	 <div id="page-header" class="style-1">  
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
 					<?php if (is_post_type_hierarchical( 'case-study' )): ?>
 						<h4>Case Study</h4>
+					<?php elseif(is_page_template( 'page-template-archive-case-study' ) ): ?>
+						<h4>Business Growth</h4>
+					<?php elseif(is_page_template( '' )): ?>
+						<h4>Venture Catalysts</h4>
 					<?php elseif (is_single()): ?>
 						<h4>Blog</h4>
 					<?php else: ?>
@@ -149,13 +155,9 @@
 				</div><!-- col -->
 				<div class="col-sm-6">
 					<?php bootstrapwp_breadcrumbs(); ?>
-					<!--<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li class="active">Blog</li>
-					</ol>-->
 								
 				</div><!-- col -->
 			</div><!-- row -->
 		</div><!-- container -->    
 	</div><!-- page-header -->
-  <?php //endif; ?>
+  <?php endif; ?>
