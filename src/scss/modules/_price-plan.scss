@@ -1,0 +1,66 @@
+/***********************************************************************************
+ *	+ PRICE PLAN
+ ***********************************************************************************/
+ 
+ 	.price-plan {
+		margin-bottom: 50px;
+		border: 1px solid #0bbff2;
+		padding: 60px 10px;
+		text-align: center;
+		-webkit-transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+				transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+	}
+	
+	.price-plan-heading {
+		margin-bottom: 40px;
+	}
+	
+	.price-plan-heading h3 small {
+		display: block;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 400;
+		margin-bottom: 30px;
+		color: #636363;
+	}
+	
+	.price-plan-heading h1 sup {
+		font-size: 20px;
+		font-weight: 400;
+	}
+	
+	.price-plan ul {
+		list-style: none;
+		margin-bottom: 50px;
+	}
+	
+	.price-plan ul li {
+		margin-bottom: 20px;
+	}
+	
+	.price-plan ul li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.price-plan .btn {
+		margin: 0;
+	}
+	
+	.price-plan:hover {
+		color: #fff;
+		background-color: #0bbff2;
+		box-shadow: 0 0 40px 10px #ccc;
+	}
+	
+	.price-plan h1,
+	.price-plan h3,
+	.price-plan h3 small {
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.price-plan:hover h1,
+	.price-plan:hover h3,
+	.price-plan:hover h3 small { 
+		color: #fff; 
+	}

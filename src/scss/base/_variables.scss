@@ -5,12 +5,15 @@
 // Fonts
 // --------------------------------------------------
 $sans-serif: Arial, sans-serif;
-$proxima: "Proxima Nova Regular", $sans-serif;
-$proxima-light: "Proxima Nova Light", $sans-serif;
-$proxima-bold: "Proxima Nova Bold", $sans-serif;
-$proxima-semi: "Proxima Nova Semi Bold", $sans-serif;
-$proxima-black: "Proxima Nova Black", $sans-serif;
-$proxima-extra: "Proxima Nova Extra Black", $sans-serif;
+$proxima: "Lato Regular", $sans-serif;
+$proxima-light: "Lato Light", $sans-serif;
+$proxima-bold: "Lato Bold", $sans-serif;
+$lato: "Lato Regular", $sans-serif;
+$lato-light: "Lato Light", $sans-serif;
+$lato-bold: "Lato Bold", $sans-serif;
+//$proxima-semi: "Proxima Nova Semi Bold", $sans-serif;
+//$proxima-black: "Proxima Nova Black", $sans-serif;
+//$proxima-extra: "Proxima Nova Extra Black", $sans-serif;
 
 
 
@@ -31,31 +34,28 @@ $gray-lighter:           lighten(#000, 93.5%); // #eee
 // Brand colors
 // -------------------------
 
-$cignaPrimary1: 		#004986; //Blue
-$cignaPrimary2:			#ffc82e; //Yellow
-$cignaPrimary3:			#0e1e63; //Blue
-$cignaPrimary4:			#00aeef; //Blue
+$innovaPrimary1: 		#1675a9; //Blue(light)
+$innovaPrimary2:		#e476c9; //Pink
+$innovaPrimary3:		#48535b; //Grey 
+//$cignaPrimary4:			#00aeef; //Blue
 
-$cignaSecondary1:		#2eb135; //Green
-$cignaSecondary2:		#ffa533; //Orange
-$cignaSecondary3:		#b81d8c; //Magenta
-
-$cignaGlobalPrimary1:	#1582c5; //Blue
-$cignaGlobalPrimary2:	#0e6ea8; //Blue
-$cignaGlobalPrimary3:	#ffc82e; //Orange
-
-$cignaGlobalSecondary1:	$cignaSecondary1; //Green
-$cignaGlobalSecondary2:	#f79820; //Orange
-$cignaGlobalSecondary3:	$cignaSecondary3; //Magenta
-$cignaGlobalSecondary4: #eef4f7; //Light blue
+//$cignaSecondary1:		#2eb135; //Green
+//$cignaSecondary2:		#ffa533; //Orange
+//$cignaSecondary3:		#b81d8c; //Magenta
+//
+//$cignaGlobalPrimary1:	#1582c5; //Blue
+//$cignaGlobalPrimary2:	#0e6ea8; //Blue
+//$cignaGlobalPrimary3:	#ffc82e; //Orange
+//
+//$cignaGlobalSecondary1:	$cignaSecondary1; //Green
+//$cignaGlobalSecondary2:	#f79820; //Orange
+//$cignaGlobalSecondary3:	$cignaSecondary3; //Magenta
+//$cignaGlobalSecondary4: #eef4f7; //Light blue
 
 $black:					#000;
 $white:					#fff;
 $grey:					#616161;
-
-$heroBlue: #7aa6c1;
-
-$separationColor: #d4e1e7;
+$grayback:              #f6f6f6;
 
 // Media queries breakpoints
 // --------------------------------------------------

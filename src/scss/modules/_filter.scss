@@ -1,0 +1,36 @@
+/***********************************************************************************
+ *	+ FILTER
+ ***********************************************************************************/
+ 
+ 	.filter {
+		list-style: none;
+		text-align: center;
+		margin-bottom: 75px;
+	}
+	
+	.filter li {
+		display: inline-block;
+		margin-right: 10px;
+	}
+	
+	.filter li:last-child {
+		margin-right: 0;
+	}
+	
+	.filter li a {
+		text-decoration: none;
+		font-weight: 400;
+		border-radius: 3px;
+		border-bottom: 3px solid transparent;
+		padding: 5px 30px;
+		color: #363636;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.filter li a:hover,
+	.filter li a.active {
+		border-bottom-color: #13b0e4;
+		background-color: #0bbff2;
+		color: #fff;
+	}

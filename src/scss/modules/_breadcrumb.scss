@@ -1,0 +1,35 @@
+/***********************************************************************************
+ *	+ BREADCRUMB
+ ***********************************************************************************/
+ 	
+	.breadcrumb {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+		background-color: transparent;
+		color: $white;
+		list-style: none;
+		float: right;
+		li {
+			float: left;
+			&:after {
+				content: '/';
+				padding: 0 5px;
+			}
+		}
+		li:last-of-type {
+			display: none;
+		}
+	}
+	
+	.breadcrumb li a, 
+	.breadcrumb > .active, 
+	.breadcrumb > li + li:before{
+		color: $white;
+	}
+	
+	.breadcrumb li a:hover {
+		text-decoration: none;
+		color: $innovaPrimary2;
+	}
+	

@@ -1,0 +1,70 @@
+/***********************************************************************************
+ *	+ ACCORDION
+ ***********************************************************************************/
+	
+	.panel {
+		box-shadow: none;
+		background-color: transparent;
+	}
+	
+	.panel-heading {
+		border: none;
+		border-radius: 0;
+		background-color: transparent;
+		padding: 0;
+	}
+	
+	.panel-title a,
+	.panel-title a:focus {
+		position: relative;
+		display: block;
+		text-decoration: none;
+		padding: 10px 25px;
+		margin-bottom: 15px;
+		font-size: 16px;
+		font-weight: 400;
+		background-color: #f2f2f2;
+		color: #363636;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.panel-title a:before {
+		position: absolute;
+		top: 0;
+		right: 0;
+		content: "+";
+		font-size: 20px;
+		line-height: 47px;
+		width: 47px;
+		height: 47px;
+		text-align: center;
+		background-color: #ededed;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.panel-title a:hover,
+	.panel-title a[aria-expanded="true"] {
+		color: #fff;
+		background-color: #0bbff2;
+	}
+	
+	.panel-title a:hover:before {
+		background-color: #13b0e4;
+	}
+	
+	.panel-title a[aria-expanded="true"]:before {
+		content: "-";
+		background-color: #13b0e4;
+	}
+	
+	.panel-group .panel + .panel {
+		margin-top: 0;
+	}
+	
+	.panel-group .panel-heading + .panel-collapse > .list-group, 
+	.panel-group .panel-heading + .panel-collapse > .panel-body {
+		border: none;
+		padding: 15px 25px;
+	}

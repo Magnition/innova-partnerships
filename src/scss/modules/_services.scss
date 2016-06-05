@@ -4,13 +4,22 @@
  	
 	/* SERVICE BOX STYLE 1 */
 	.service-box.style-1 {
-		margin-bottom: 40px;
+		margin-bottom: 80px;
+		border: 1px solid #fff;
+		padding: 20px 40px 0 40px;
+	}
+	
+	.service-box.style-1:hover {
+		border: 1px solid $innovaPrimary2;
 	}
 	
 	.service-box.style-1 > i {
-		margin-bottom: 20px;
-		font-size: 32px;
-		color: #a8e12a;
+		margin: 20px auto;
+		//font-size: 32px;
+		//color: $innovaPrimary2;
+		//width: 130px;
+		//height: 130px;
+		display: block;
 		-webkit-transform: translateZ(0);
 				transform: translateZ(0);
 		-webkit-transition: all 0.2s;
@@ -26,6 +35,7 @@
 	
 	.service-box.style-1 .service-box-content > a {
 		font-weight: 400;
+		color: $innovaPrimary2;
 	}
 	
 	.service-box.style-1:hover > i {
@@ -35,7 +45,7 @@
 	}
 	
 	@-webkit-keyframes icon-zoom {
-		50% {
+		25% {
 			-webkit-transform: scale(1.2);
 				-ms-transform: scale(1.2);
 					transform: scale(1.2);
@@ -43,7 +53,7 @@
 	}
 
 	@keyframes icon-zoom {
-		50% {
+		25% {
 			-webkit-transform: scale(1.2);
 				-ms-transform: scale(1.2);
 					transform: scale(1.2);
@@ -89,7 +99,7 @@
 	}
 	
 	@-webkit-keyframes icon-zoom {
-		50% {
+		25% {
 			-webkit-transform: scale(1.2);
 				-ms-transform: scale(1.2);
 					transform: scale(1.2);
@@ -97,7 +107,7 @@
 	}
 
 	@keyframes icon-zoom {
-		50% {
+		25% {
 			-webkit-transform: scale(1.2);
 				-ms-transform: scale(1.2);
 					transform: scale(1.2);
@@ -155,7 +165,7 @@
 	}
 	
 	@-webkit-keyframes icon-zoom {
-		50% {
+		25% {
 			-webkit-transform: scale(1.5);
 				-ms-transform: scale(1.5);
 					transform: scale(1.5);
@@ -163,7 +173,7 @@
 	}
 
 	@keyframes icon-zoom {
-		50% {
+		20% {
 			-webkit-transform: scale(1.5);
 				-ms-transform: scale(1.5);
 					transform: scale(1.5);

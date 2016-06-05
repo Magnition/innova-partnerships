@@ -1,0 +1,157 @@
+/***********************************************************************************
+ *	+ BUTTONS
+ ***********************************************************************************/
+ 	
+	.btn {
+		padding: 10px 30px;
+		margin-bottom: 20px;
+		border: none;
+		border-radius: 5px;
+		border-bottom: 4px solid;
+		color: #fff;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.btn-lg {
+		padding: 13px 35px;
+	}
+	
+	.btn-xs {
+		padding: 7px 25px;
+	}
+	
+	.btn:hover,
+	.btn:focus,
+	.btn:active {
+		outline: 0 !important;
+		box-shadow: none;
+		color: #fff;
+	}
+	
+	/* BLUE BUTTON */
+	.btn-blue {
+		border-bottom-color: #13b0e4;
+		background-color: #0bbff2;
+	}
+	
+	.btn-blue:hover,
+	.btn-blue:focus,
+	.btn-blue:active {
+		border-bottom-color: #0bbff2;
+		background-color: #13b0e4;
+	}
+	
+	
+	/* GREEN BUTTON */
+	.btn-green {
+		border-bottom-color: #9ad121;
+		background-color: #a8e12a;
+	}
+	
+	.btn-green:hover,
+	.btn-green:focus,
+	.btn-green:active {
+		border-bottom-color: #a8e12a;
+		background-color: #9ad121;
+	}
+	
+	
+	/* RED BUTTON */
+	.btn-red {
+		border-bottom-color: #d12142;
+		background-color: #ec284a;
+	}
+	
+	.btn-red:hover,
+	.btn-red:focus,
+	.btn-red:active {
+		border-bottom-color: #ec284a;
+		background-color: #d12142;
+	}
+	
+	
+	/* GREY BUTTON */
+	.btn-grey {
+		border-bottom-color: #d7d7d7;
+		background-color: #f2f2f2;
+		color: #363636;
+	}
+	
+	.btn-grey:hover,
+	.btn-grey:focus,
+	.btn-grey:active {
+		border-bottom-color: #f2f2f2;
+		background-color: #d7d7d7;
+		color: #363636;
+	}
+	
+	
+	/* BLACK BUTTON */
+	.btn-black {
+		border-bottom-color: #1d1d1d;
+		background-color: #363636;
+	}
+	
+	.btn-black:hover,
+	.btn-black:focus,
+	.btn-black:active {
+		border-bottom-color: #363636;
+		background-color: #1d1d1d;
+	}
+	
+	
+	/* YELLOW BUTTON */
+	.btn-yellow {
+		border-bottom-color: #f2af00;
+		background-color: #ffc72c;
+	}
+	
+	.btn-yellow:hover,
+	.btn-yellow:focus,
+	.btn-yellow:active {
+		border-bottom-color: #ffc72c;
+		background-color: #f2af00;
+	}
+	
+	
+	/* PINK BUTTON */
+	.btn-pink {
+		border-bottom-color: #9b4786;
+		background-color: $innovaPrimary2;
+	}
+	
+	.btn-pink:hover,
+	.btn-pink:focus,
+	.btn-pink:active {
+		border-bottom-color: $innovaPrimary2;
+		background-color: #9b4786;
+	}
+	
+	
+	/* PURPLE BUTTON */
+	.btn-purple {
+		border-bottom-color: #6b2798;
+		background-color: #8f35ca;
+	}
+	
+	.btn-purple:hover,
+	.btn-purple:focus,
+	.btn-purple:active {
+		border-bottom-color: #8f35ca;
+		background-color: #6b2798;
+	}
+	
+	
+	/* MIXED BUTTON */
+	.btn-mixed {
+		border-bottom-color: #a8e12a;
+		background-color: #0bbff2;
+	}
+	
+	.btn-mixed:hover,
+	.btn-mixed:focus,
+	.btn-mixed:active {
+		border-bottom-color: #0bbff2;
+		background-color: #a8e12a;
+	}

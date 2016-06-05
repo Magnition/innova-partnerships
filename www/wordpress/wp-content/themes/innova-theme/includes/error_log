@@ -1,0 +1,200 @@
+[20-Nov-2014 11:01:12 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 36
+[20-Nov-2014 11:01:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php:36) in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 54
+[20-Nov-2014 11:30:26 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 36
+[20-Nov-2014 11:30:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php:36) in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 54
+[20-Nov-2014 11:43:25 UTC] PHP Warning:  require_once(lib/SendGrid.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 2
+[20-Nov-2014 11:43:25 UTC] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'lib/SendGrid.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 2
+[20-Nov-2014 11:44:05 UTC] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 38
+[20-Nov-2014 11:44:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php:38) in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 56
+[24-Nov-2014 11:56:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 2
+[24-Nov-2014 11:56:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/brightfi/public_html/newton/wp-content/themes/newton/includes/mailer.php on line 2
+[24-Nov-2014 12:21:05 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:21:05 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:36:21 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:36:22 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:36:35 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:36:35 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:37:14 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:37:14 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:37:24 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [hgr] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('hgr')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/ in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:37:24 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [hgr] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('hgr')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/ in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:47:01 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 12:47:01 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 13:29:08 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[24-Nov-2014 13:29:08 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[25-Nov-2014 09:37:55 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[25-Nov-2014 09:37:55 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[25-Nov-2014 16:02:32 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[25-Nov-2014 16:02:32 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/brightfi/public_html/newton/wp-content/themes/newton/lib/cl in /home/brightfi/public_html/newton/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[16-Dec-2014 10:26:48 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [6pm onwards] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('6pm onwards')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.p in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[16-Dec-2014 10:26:48 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [6pm onwards] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('6pm onwards')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.p in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[16-Dec-2014 10:32:02 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Can view from 6pm onwards] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Can view from 6...')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[16-Dec-2014 10:32:02 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Can view from 6pm onwards] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Can view from 6...')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[29-Dec-2014 05:50:01 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_Si in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[29-Dec-2014 05:50:01 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_Si in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[20-Jan-2015 05:04:29 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.sendgrid.net [php_network_getaddresses: getaddrinfo failed: Name or service not known #0]' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/newton/public_html/wp-content/themes/newton/includes/mailer-repair.php(112): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Transport/StreamBuffer.php on line 259
+[30-Jan-2015 17:28:16 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_Si in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[30-Jan-2015 17:28:16 America/New_York] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMimeEntity.php(604): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/SimpleMessage.php(215): Swift_Mime_Si in /home/newton/public_html/wp-content/themes/newton/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352

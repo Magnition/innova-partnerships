@@ -35,14 +35,22 @@ $fa-font-path: "../fonts";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 @import '../../bower_components/flag-icon-css/sass/flag-icon';
-//@import 'html/sites/all/themes/cignaGlobal/scss/sprite';
+@import 'www/wordpress/wp-content/themes/innova-theme/scss/sprite';
 @import 'base/variables';
 @import 'base/mixins';
 @import 'base/scaffolding';
 @import 'base/type';
-@import 'base/fonts';
+//@import 'base/fonts';
 @import 'base/elements';
 @import 'base/flexbox';
+
+// plugin includes for CSS
+@import 'includes/fancybox';
+@import 'includes/magnify';
+@import 'includes/owl-carousel';
+@import 'includes/owl-transitions';
+//@import 'includes/page';
+
 
 // commonly used components
 @import 'modules/header';
@@ -50,9 +58,34 @@ $fa-font-path: "../fonts";
 @import 'modules/search';
 @import 'modules/sticky';
 @import 'modules/content-pagehead';
+@import 'modules/headline';
+@import 'modules/isotope';
+@import 'modules/buttons';
 @import 'modules/footer';
+@import 'modules/breadcrumb';
+@import 'modules/call-out-box';
+@import 'modules/contact-form';
+@import 'modules/counter';
+@import 'modules/filter';
+@import 'modules/google-maps';
+@import 'modules/gotop';
+@import 'modules/lists';
+@import 'modules/nav-tabs';
+@import 'modules/pagination';
+@import 'modules/pie-charts';
+@import 'modules/portfolio';
+@import 'modules/price-plan';
+@import 'modules/process-steps';
+@import 'modules/progress-bar';
+@import 'modules/search';
+@import 'modules/social-media';
+@import 'modules/timeline';
+@import 'modules/video';
+@import 'modules/widgets';
+@import 'modules/lets-talk';
 
 // Innova modules
+@import 'modules/full-section';
 @import 'modules/about';
 @import 'modules/services';
 @import 'modules/portfolio';
@@ -60,14 +93,21 @@ $fa-font-path: "../fonts";
 @import 'modules/shop';
 @import 'modules/contact-form';
 @import 'modules/elements';
+@import 'modules/banner';
+@import 'modules/testimonials';
+@import 'modules/services';
+@import 'modules/accordion';
+@import 'modules/alerts';
+
 
 // page specific styles
-@import 'pages/home';
-@import 'pages/page';
+//@import 'pages/home';
+//@import 'pages/page';
 
 // landing page specific styles
 //@import 'base/bootstrap-override';
 @import 'base/helper';
 @import 'base/responsive';
+@import 'modules/responsive';
 
 @import 'base/shame';

@@ -1,0 +1,65 @@
+/***********************************************************************************
+ *	+ PROCESS STEPS
+ ***********************************************************************************/
+	
+	.process-steps {
+		position: relative;
+		margin: 20px 0 50px;
+	}
+	
+	.process-steps .step {
+		float: left;
+		width: 33.33333%;
+		text-align: center;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+		-webkit-transition: margin-top 0.3s;
+				transition: margin-top 0.3s;
+	}
+	
+	.process-steps.process-4-steps .step {
+		width: 25%;
+	}
+	
+	.process-steps.process-3-steps .step {
+		width: 33.33333%;
+	}
+	
+	.process-steps .step > h6 {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		text-align: center;
+		border-radius: 50%;
+		margin: 0 auto 40px;
+		color: #fff;
+		background-color: #0bbff2;
+		-webkit-box-sizing: content-box;
+		   -moz-box-sizing: content-box;
+				box-sizing: content-box;
+		-webkit-transition: all 0.3s;
+				transition: all 0.3s;
+	}
+	
+	.process-steps .step-details {
+		padding: 0 15px;
+	}
+	
+	.process-steps .step:hover {
+		margin-top: -20px;
+	}
+	
+	.process-steps .step:hover > h6 {
+		padding: 20px;
+		font-size: 18px;
+	}
+	
+	.process-steps:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}

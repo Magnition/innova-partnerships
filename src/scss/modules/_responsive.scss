@@ -1,0 +1,344 @@
+/***********************************************************************************
+ *	+ RESPONSIVE
+ ***********************************************************************************/
+ 
+ /***********************************************************************************
+ *	- EXTRA LARGE DISPLAY (>1400px)
+ ***********************************************************************************/
+	
+	@media (min-width: 1400px) {
+		
+		.isotope.col-5 .isotope-item {
+			width: 20%;
+		}
+		
+	}
+ 
+/***********************************************************************************
+ *	- LARGE DISPLAY (>1200px)
+ ***********************************************************************************/
+
+	@media (min-width: 1200px) {
+		
+		.isotope.col-4 .isotope-item {
+			width: 25%;
+		}
+		
+		#instafeed a {
+			width: 25%;
+		}
+		
+		#instafeed a:last-child {
+			display: block;
+		}
+		
+	}
+	
+	@media (min-width: 1200px) and (max-width: 1399px) {
+			
+		.isotope.col-5 .isotope-item {
+			width: 25%;
+		}
+	
+	}
+	
+/***********************************************************************************
+ *	- SMALL DISPLAY (TABLETS)
+ ***********************************************************************************/
+	
+	@media (min-width: 768px) and (max-width: 991px) {
+		
+		.nav-tabs > li > a {
+			padding: 10px 15px;
+		}
+		
+		.tab-content {
+			padding: 20px;
+		}
+		
+		.timeline li h3 span{
+			display: block;
+		}
+		
+		.timeline .timeline-left-side > span {
+			margin-right: -63px;
+		} 
+		
+		.timeline .timeline-right-side > span {
+			margin-left: -63px;
+		}
+		
+		.isotope .isotope-item, 
+		.isotope.col-3 .isotope-item, 
+		.isotope.col-4 .isotope-item,
+		.isotope.col-5 .isotope-item {
+			width: 50%;
+		}
+		
+		.tp-caption .btn {
+			font-size: 9px;
+			line-height: 17px;
+			padding: 5px 12px;
+			border-radius: 2px;
+		}
+		
+		#instafeed a {
+			width: 50%;
+		}
+		
+		#instafeed a:last-child {
+			display: block;
+		}
+		
+		.full-section .widget-twitter {
+			width: 100%;
+		}
+		
+		#tweet .owl-prev,
+		#tweet .owl-next,
+		.logos .owl-prev,
+		.logos .owl-next {
+			display: none;
+		}
+		
+		#tweet .owl-pagination, 
+		.logos .owl-pagination {
+			display: block;
+		}
+	
+	}
+	
+/***********************************************************************************
+ *	- EXTRA SMALL DISPLAY (PHONES PORTRAIT)
+ ***********************************************************************************/
+ 
+	@media (max-width: 767px) {
+			
+		.last {
+			margin-bottom: 20px;
+		}
+		
+		.breadcrumb {
+			display: none;
+		}
+		
+		.nav-tabs > li {
+			float: none;
+			margin-bottom: 0;
+		}
+		
+		.nav-tabs > li > a {
+			margin-right: 0;
+		}
+		
+		.tab-content {
+			padding: 20px;
+		}
+		
+		.tab-content .pull-left,
+		.tab-content .pull-right {
+			float: none !important;
+			margin: 0;
+			margin-bottom: 20px;
+		}
+		
+		.process-steps .step {
+			float: none;
+			width: 100%;
+			margin-bottom: 30px;
+		}
+		
+		.process-steps .step:last-child {
+			margin-bottom: 0;
+		}
+		
+		.process-steps.process-3-steps .step,
+		.process-steps.process-4-steps .step  {
+			width: 100%;
+		}
+		
+		.timeline:before {
+			display: none;
+		}
+		
+		.timeline li h3 span{
+			display: block;
+		}
+		
+		.timeline .timeline-left-side, 
+		.timeline .timeline-right-side {
+			float: none;
+			width: 100%;
+		}
+		
+		.timeline .timeline-left-side > span, 
+		.timeline .timeline-right-side > span {
+			display: none;
+		}
+		
+		.filter li {
+			display: block;
+			margin-right: 0;
+			margin-bottom: 15px;
+		}
+		
+		.filter li:last-child {
+			margin-bottom: 0;
+		}
+		
+		.isotope .isotope-item {
+			float: none;
+			width: 100%;
+		}
+		
+		.isotope.col-2 .isotope-item,
+		.isotope.col-3 .isotope-item, 
+		.isotope.col-4 .isotope-item,
+		.isotope.col-5 .isotope-item {
+			width: 100%;
+		}
+		
+		.testimonial.style-1 blockquote {
+			padding: 30px 15px;
+		}
+		
+		.tp-leftarrow.default,
+		.tp-rightarrow.default,
+		.tp-leftarrow.preview3,
+		.tp-rightarrow.preview3 {
+			display: none;
+		}
+		
+		.tp-caption .btn {
+			font-size: 4px;
+			line-height: 7px;
+			padding: 2px 7px;
+			border-bottom-width: 2px;
+			border-radius: 2px;
+		}
+		
+		.owl-pagination {
+			bottom: 10px;
+		}
+		
+		.text-slide {
+			left: 15px;
+			right: 15px;
+			font-size: 10px;
+			line-height: 18px;
+		}
+		
+		.text-slide h1 {
+			font-size: 18px;
+			line-height: 26px;
+		}
+		
+		.text-slide .btn {
+			padding: 5px 15px;
+			font-size: 10px;
+		}
+		
+		.main-slider .owl-prev,
+		.main-slider .owl-next {
+			display: none;
+		}
+		
+		.callout-box-icon {
+			position: relative;
+			width: 100%;
+			margin: 0;
+			margin-bottom: 20px;
+			height: 100px;
+		}
+		
+		.callout-box-content {
+			margin-left: 0;
+		}
+		
+		.full-section {
+			-webkit-background-size: cover;
+					background-size: cover;
+		}
+		
+		.half-image {
+			position: relative;
+			width: 100%;
+			background: none !important;		 
+		}
+		
+		.half-image img { 
+			display: block;
+			margin-bottom: 20px;
+		}
+		
+		.half-image-left .half-image { left: 0; }
+		.half-image-right .half-image { right: 0; }
+		
+		#section-3 {
+			padding-bottom: 30px;
+		}
+		
+		.full-section .widget-twitter {
+			width: 100%;
+		}
+		
+		#tweet:before {
+			float: none;
+			display: block;
+			margin-bottom: 15px;
+			margin-right: 0;
+		}
+		
+		#tweet .owl-prev,
+		#tweet .owl-next,
+		.logos .owl-prev,
+		.logos .owl-next {
+			display: none;
+		}
+		
+		#tweet .owl-pagination, 
+		.logos .owl-pagination {
+			display: block;
+		}
+		
+		.slider-thumbs a {
+			max-width: 50px;
+		}
+		
+	}
+	
+/***********************************************************************************
+ *	- EXTRA SMALL DISPLAY (PHONES LANDSCAPE)
+ ***********************************************************************************/
+ 
+ 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.isotope.gutter {
+			margin: -10px -10px 50px -10px;
+		}
+		
+		.isotope .isotope-item {
+			float: left;
+			width: 50%;
+		}
+		
+		.isotope.gutter .isotope-item {
+			padding: 10px;
+		}
+		
+		.isotope.col-2 .isotope-item, 
+		.isotope.col-3 .isotope-item,
+		.isotope.col-4 .isotope-item,
+		.isotope.col-5 .isotope-item {
+			width: 50%;
+		}
+		
+		#instafeed a {
+			width: 20%;
+		}
+		
+		#instafeed a:last-child {
+			display: block;
+		}
+		
+	}

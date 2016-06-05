@@ -5,12 +5,12 @@
 // if you're adding a new task, create a new task.js file and set
 // the appropriate module export settings appropriately
 
-var dest = './html';
-var drupalThemeName = 'unknown';
+var dest = './www/wordpress/wp-content/themes/';
+var drupalThemeName = 'innova-theme';
 var drupalThemePath = dest + drupalThemeName;
 var src = './src';
 var drupalTemplates = dest + drupalThemeName + '/templates';
-var siteRoot = './html/';
+var siteRoot = './www/';
 
 module.exports = {
   browserSync: {
@@ -40,8 +40,8 @@ module.exports = {
   //},
   images: {
     src: src + '/images/**.{png,jpg,jpeg,gif}',
-    //dest: drupalThemePath + '/images'
-    dest: dest + '/images'
+    dest: drupalThemePath + '/images'
+    //dest: dest + '/images'
   },
   filesimages: {
     src: src + '~/repos/cignaglobal.com-files/files/**.{png,jpg,jpeg,gif}',
@@ -49,8 +49,8 @@ module.exports = {
   },
   sass: {
     src: src + '/scss/**/*.scss',
-    //dest: dest + drupalThemeName + '/css/',
-    dest: dest + '/css/',
+    dest: dest + drupalThemeName + '/css/',
+    //dest: dest + '/css/',
     settings: {
       imagePath: '../images' // Used by the image-url helper
     }
@@ -68,12 +68,12 @@ module.exports = {
   },
   scripts: {
     src: src + '/js/*.js',
-    //dest: dest + drupalThemeName + '/js'
-    dest: dest + '/js'
+    dest: dest + drupalThemeName + '/js'
+    //dest: dest + '/js'
   },
   production: {
-    //cssSrc: drupalThemeName + '/css/*.css',
-    cssSrc: dest + '/css/*.css',
+    cssSrc: drupalThemeName + '/css/*.css',
+    //cssSrc: dest + '/css/*.css',
     jsSrc: dest + '/*.js',
     dest: dest,
     cssSettings: {

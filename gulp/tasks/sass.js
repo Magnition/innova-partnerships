@@ -19,7 +19,7 @@ gulp.task('sass', function () {
       .on('error', handleErrors)
       .pipe(autoprefixer({ browsers: ['last 2 version'] }))
       // comment out minification line during dev. Keep min name so files match with drupal
-      //.pipe(minifyCSS(config.cssSettings))
+      .pipe(minifyCSS(config.cssSettings))
     .pipe(size())
     .pipe(rename({
             suffix: '.min'

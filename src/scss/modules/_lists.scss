@@ -1,0 +1,56 @@
+/***********************************************************************************
+ *	+ LISTS
+ ***********************************************************************************/
+ 
+ 	/* CHECK LIST */
+	.check-list { 
+		list-style: none;
+		margin-bottom: 20px;
+	}
+	
+	.check-list li {
+		margin-bottom: 7px;
+	}
+	
+	.check-list li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.check-list li:before {
+		font-family: "mt-icons";
+		content: "\e62b";
+		margin-right: 10px;
+		display: inline-block;
+		width: 18px;
+		height: 18px;
+		border-radius: 3px;
+		font-size: 10px;
+		line-height: 18px;
+		text-align: center;
+		background-color: #0bbff2;
+		color: #fff;
+	}
+	
+	
+	/* ARROW LIST */
+	.arrow-list { 
+		list-style: none;
+		margin-bottom: 20px;
+	}
+	
+	.arrow-list li {
+		margin-bottom: 7px;
+	}
+	
+	.arrow-list li:last-child {
+		margin-bottom: 0;
+	}
+	
+	.arrow-list li:before {
+		font-family: "mt-icons";
+		content: "\e60d";
+		margin-right: 10px;
+		display: inline-block;
+		font-size: 10px;
+		color: #a8e12a;
+	}

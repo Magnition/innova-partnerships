@@ -1,0 +1,17 @@
+.lets-talk {
+    margin-bottom: 40px;
+    padding: 25px 20px 40px 20px;
+    border: 1px solid $innovaPrimary2;
+    a {
+        color: $innovaPrimary2;
+        display: block;
+        &:hover {
+            color: #9b4786;
+            text-decoration: underline;
+        }
+    }
+    i {
+        display: block;
+        margin: 15px auto;
+    }
+}

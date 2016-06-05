@@ -1,0 +1,31 @@
+/***********************************************************************************
+ *	+ SLIDERS
+ ***********************************************************************************/
+	
+	/* REVOLUTION SLIDER */
+	.bannercontainer {
+		
+		width: 100%;
+		position: relative;
+		padding: 0;
+		margin-bottom: 100px;
+		//.text {
+		//	margin-top: -300px;
+		//}
+		h1, h2, h3 {
+			color: $white;
+			text-shadow: 2px 2px $grey;
+		}
+    }
+     
+    .banner1, 
+	.banner2,
+	.banner-fullscreen {
+		width: 100%;
+		position: relative;
+    }
+	
+	#section-20 {
+		background-image: url('../images/home-banner.jpg');
+		background-size: cover;
+	}

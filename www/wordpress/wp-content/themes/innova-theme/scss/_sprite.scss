@@ -1,0 +1,64 @@
+%svg-common {
+	background: url("../svg/sprite.view.svg") no-repeat;
+}
+
+.svg-business-growth {
+	@extend %svg-common;
+	background-position: 0 99.77495107632093%;
+}
+
+.svg-business-growth-dims {
+	width: 99px;
+	height: 85.6px;
+}
+
+.svg-innova-logo {
+	@extend %svg-common;
+	background-position: 0 31.20216118865376%;
+}
+
+.svg-innova-logo-dims {
+	width: 294px;
+	height: 67.9px;
+}
+
+.svg-innova-logo--white {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-innova-logo--white-dims {
+	width: 300px;
+	height: 69.3px;
+}
+
+.svg-innova-logo--white-footer {
+	@extend %svg-common;
+	background-position: 0 61.453014422646234%;
+}
+
+.svg-innova-logo--white-footer-dims {
+	width: 288.72px;
+	height: 66.74px;
+}
+
+.svg-lets-talk {
+	@extend %svg-common;
+	background-position: 99.1014799154334% 48.25090470446321%;
+}
+
+.svg-lets-talk-dims {
+	width: 119.28px;
+	height: 82.75px;
+}
+
+.svg-venture-catalysts {
+	@extend %svg-common;
+	background-position: 99.70089730807578% 0;
+}
+
+.svg-venture-catalysts-dims {
+	width: 121.1px;
+	height: 100px;
+}
+

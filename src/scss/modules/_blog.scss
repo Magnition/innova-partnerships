@@ -51,8 +51,8 @@
 		line-height: 18px;
 		font-weight: 400;
 		border-radius: 5px;
-		border-bottom: 3px solid #13b0e4;
-		background-color: #0bbff2;
+		border-bottom: 3px solid #263139;
+		background-color: $innovaPrimary3;
 		color: #fff;
 		-webkit-transition: all 0.3s;
 				transition: all 0.3s;
@@ -85,8 +85,8 @@
 	}
 	
 	.blog-article:hover .blog-article-date {
-		border-bottom-color: #9ad121;
-		background-color: #a8e12a;
+		border-bottom-color: #9b4786;
+		background-color: $innovaPrimary2;
 	}
 	
 	.blog-article:hover .blog-article-thumbnail .zoom-action {

@@ -1,0 +1,45 @@
+/***********************************************************************************
+ *	+ ISOTOPE
+ ***********************************************************************************/
+ 	
+	.isotope {
+		margin-bottom: 50px;
+	}
+	
+	.isotope.gutter {
+		margin: -15px -15px 50px;
+	}
+	
+	.isotope .isotope-item {
+		float: left;
+		width: 33.33333%;
+	}
+	
+	.isotope.gutter .isotope-item {
+		padding: 15px;
+	}
+	
+	.isotope.col-2 .isotope-item {
+		width: 50%;
+	}
+	
+	.isotope.col-3 .isotope-item {
+		width: 33.33333%;
+	}
+	
+	.isotope.col-4 .isotope-item {
+		width: 33.33333%;
+	}
+	
+	.isotope.col-5 .isotope-item {
+		width: 33.33333%;
+	}
+	
+	.isotope:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+	}
